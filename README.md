@@ -7,7 +7,7 @@ O objetivo do relatório é realizar a aplicação de instrumentos básicos de g
 
 - Determinar, com a simulação, um valor de coeficientes de arrasto e sustentação para o aerofólio NACA 0012 para o ângulo de ataque de 12 graus.
 - Determinar se está ocorrendo o fenômeno de *stall* neste ângulo de ataque.
-- Usando a simulação apresentada, realizar um estudo paramétrico para determinar cenários de desempenho aerodinâmico do perfil
+- Usando a simulação apresentada, realizar um estudo paramétrico da modelagem da turbulência para determinar cenários de desempenho aerodinâmico do perfil
 
 ### 1. Modelagem: 
 

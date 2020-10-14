@@ -14,21 +14,29 @@ O objetivo do relatório é realizar a aplicação de instrumentos básicos de g
 A primeira etapa deverá conter as respostas para as seguintes perguntas:
 
 - Qual é o objetivo do projeto?
-O principal objetivo do projeto fazer uma simulação computacional com o aerofólio da NACA0012  
-- Quais são seus requisitos de solução?
-Os requisitos da solução são : um conhecimento prévio no estudo de aeronaveis ou aeromodelos,manejo do programa Ansys,valores de arrasto e de sustentação.
-- Qual é a finalidade do projeto?
-com a a finalidade de se determinar um valor de coeficiente de arrasto e sustentação para o aerofólio NACA 0012 para o ângulo de ataque de 12 graus.Além de determinar se está ocorrendo o fenômeno de *stall* neste ângulo de ataque.
-- Que hipóteses de simplificação podem ser adotadas?
-Estamos ultilizando um perfil NACA 0012 com o tamanho da corda de 1000 milimetros,e com 200 pontos para traçarmos o perfil.
 
-Estabelecemos um domíno onde a parede horizontal esta a 10 vezes o tamanho da corda e a horizontal 20 vezes o tamanho da corda ,para avaliarmos durante a simulação  a influência dos efeitos de parede no nosso projeto.
+**O principal objetivo do projeto fazer uma simulação computacional com o aerofólio da NACA0012**  
+- Quais são seus requisitos de solução?
+
+**Os requisitos da solução são : um conhecimento prévio no estudo de aeronaveis ou aeromodelos,manejo do programa Ansys,valores de arrasto e de sustentação.**
+- Qual é a finalidade do projeto?
+
+**com a a finalidade de se determinar um valor de coeficiente de arrasto e sustentação para o aerofólio NACA 0012 para o ângulo de ataque de 12 graus.Além de determinar se está ocorrendo o fenômeno de *stall* neste ângulo de ataque.**
+
+- Que hipóteses de simplificação podem ser adotadas?
+
+**Estamos ultilizando um perfil NACA 0012 com o tamanho da corda de 1000 milimetros,e com 200 pontos para traçarmos o perfil.Estabelecemos um domíno onde a parede horizontal esta a 10 vezes o tamanho da corda e a horizontal 20 vezes o tamanho da corda ,para avaliarmos durante a simulação  a influência dos efeitos de parede no nosso projeto.**
+
 - Que hipóteses de simplificação devem ser adotadas?
+
 - Qual é a precisão requerida nos resultados do projeto?
-Teremos uma precisão mínima de arrasto e sutentação de 5%.
+
+**Teremos uma precisão mínima de arrasto e sutentação de 5%.**
+
 - Qual é o prazo de entrega do projeto?O prazo de entrega para este trabalho será para o dia 04 de dezembro de 2020.
 - Há outra metodologia mais adequada do que CFD?
-Podemos ultilizar além do CFD uma simulação em um tunel de vento,cálculos númericos e tabelas no Exel. 
+
+**Podemos ultilizar além do CFD uma simulação em um tunel de vento,cálculos númericos e tabelas no Exel. **
 
 O projeto deverá conter nesta etapa:
 

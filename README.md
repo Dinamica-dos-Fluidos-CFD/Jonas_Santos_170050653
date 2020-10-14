@@ -26,7 +26,10 @@ A primeira etapa deverá conter as respostas para as seguintes perguntas:
 - Que hipóteses de simplificação podem ser adotadas?
 
 **Estamos ultilizando um perfil NACA 0012 com o tamanho da corda de 1000 milimetros,e com 200 pontos para traçarmos o perfil.Estabelecemos um domíno onde a parede horizontal esta a 10 vezes o tamanho da corda e a horizontal 20 vezes o tamanho da corda ,para avaliarmos durante a simulação  a influência dos efeitos de parede no nosso projeto.**
-
+       ![numero de pontos](https://user-images.githubusercontent.com/70406366/95993724-d5d40780-0e05-11eb-9a12-c1b9fbad3d23.PNG)
+       ![paredes](https://user-images.githubusercontent.com/70406366/95994079-37947180-0e06-11eb-9745-2cf033d7fd64.png)
+        ![image](https://user-images.githubusercontent.com/70406366/96003443-9bbc3300-0e10-11eb-8ee8-c42309d47ae3.png)  
+          
 - Que hipóteses de simplificação devem ser adotadas?
 
 - Qual é a precisão requerida nos resultados do projeto?

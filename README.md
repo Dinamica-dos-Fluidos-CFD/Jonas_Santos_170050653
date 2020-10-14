@@ -16,12 +16,13 @@ A primeira etapa deverá conter as respostas para as seguintes perguntas:
 - Qual é o objetivo do projeto?
 O principal objetivo do projeto fazer uma simulação computacional com o aerofólio da NACA0012  
 - Quais são seus requisitos de solução?
-Os requisitos da solução são : um conhecimento prévio no estudo de aeronaveis ou aeromodelos,manejo do programa Ansys,
+Os requisitos da solução são : um conhecimento prévio no estudo de aeronaveis ou aeromodelos,manejo do programa Ansys,valores de arrasto e de sustentação.
 - Qual é a finalidade do projeto?
 com a a finalidade de se determinar um valor de coeficiente de arrasto e sustentação para o aerofólio NACA 0012 para o ângulo de ataque de 12 graus.Além de determinar se está ocorrendo o fenômeno de *stall* neste ângulo de ataque.
 - Que hipóteses de simplificação podem ser adotadas?
 - Que hipóteses de simplificação devem ser adotadas?
 - Qual é a precisão requerida nos resultados do projeto?
+Teremos uma precisão mínima de arrasto e sutentação de 5%.
 - Qual é o prazo de entrega do projeto?O prazo de entrega para este trabalho será para o dia 04 de dezembro de 2020.
 - Há outra metodologia mais adequada do que CFD?
 Podemos ultilizar além do CFD uma simulação em um tunel de vento,cálculos númericos e tabelas no Exel. 

@@ -18,20 +18,24 @@ O objetivo do relatório é realizar a aplicação de instrumentos básicos de g
 ### Finalidade:
 **com a a finalidade de se determinar um valor de coeficiente de arrasto e sustentação para o aerofólio NACA 0012 para o ângulo de ataque de 12 graus.Além de determinar se está ocorrendo o fenômeno de *stall* neste ângulo de ataque.**
 ### Hipóteses 
+**Usaresmo como hipóteses que o escoamento seja 2D ,turbulento e isotérmico.**
 **Estamos ultilizando um perfil NACA 0012 com o tamanho da corda de 1000 milimetros,e com 200 pontos para traçarmos o perfil.Estabelecemos um domíno onde a parede horizontal esta a 10 vezes o tamanho da corda e a horizontal 20 vezes o tamanho da corda ,para avaliarmos durante a simulação  a influência dos efeitos de parede no nosso projeto.**
        ![numero de pontos](https://user-images.githubusercontent.com/70406366/95993724-d5d40780-0e05-11eb-9a12-c1b9fbad3d23.PNG)
        ![paredes](https://user-images.githubusercontent.com/70406366/95994079-37947180-0e06-11eb-9745-2cf033d7fd64.png)
         ![image](https://user-images.githubusercontent.com/70406366/96003443-9bbc3300-0e10-11eb-8ee8-c42309d47ae3.png)  
           
 
-**Usaresmo como hipóteses que o escoamento seja 2D ,turbulento e isotérmico.**
+
 ### Precisão
 **Teremos uma precisão mínima de arrasto e sutentação de 5%.**
 ### Prazos: 
 **O prazo de entrega para este trabalho será para o dia 04 de dezembro de 2020.Dessa forma segmentaremos as principai partes sendo :
+
 Modelagem: 10 dias
 Pré-processamento: 20 dias
-Processamento e pós processamento 45 dias**
+
+Processamento e pós processamento 45 dias
+**
 ### Opções além do cfd:
 **Podemos ultilizar além do CFD uma simulação em um tunel de vento,cálculos númericos e tabelas no Exel. **
 ### Geometria 

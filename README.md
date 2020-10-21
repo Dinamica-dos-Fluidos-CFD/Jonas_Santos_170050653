@@ -19,16 +19,33 @@ O objetivo do relatório é realizar a aplicação de instrumentos básicos de g
 **com a a finalidade de se determinar um valor de coeficiente de arrasto e sustentação para o aerofólio NACA 0012 para o ângulo de ataque de 12 graus.Além de determinar se está ocorrendo o fenômeno de *stall* neste ângulo de ataque.**
 ### Hipóteses 
 **Usaresmo como hipóteses que o escoamento seja 2D ,turbulento e isotérmico.**
+![image](https://user-images.githubusercontent.com/70406366/96738208-dedc5000-1394-11eb-803b-4e647f700351.png)
+
+Fig Fórmula do número de reynolds
+
+**Re = 6000000**
+**densidade do ar  de 1,2754 kg/m3**
+**escoamento imcompresivel (Ma<0.3)**
+**u=88.65m/s**
+**Ma = 0.258**
+
+**Em relação ao Y+ Utilizaremos calculadora online  **
+
+![CodeCogsEqn](https://user-images.githubusercontent.com/70406366/96739589-53fc5500-1396-11eb-99d6-962d58b81128.gif
+
+Fig Fórmula do Y+
+
 ### Precisão
 **Teremos uma precisão mínima de arrasto e sutentação de 5%.**
 ### Prazos: 
-**O prazo de entrega para este trabalho será para o dia 04 de dezembro de 2020.Dessa forma segmentaremos as principais partes sendo :
+**O prazo de entrega para este trabalho será para o dia 04 de dezembro de 2020.Dessa forma segmentaremos as principais partes sendo :**
 
 **Modelagem: 10 dias**
 
 **Pré-processamento: 20 dias**
 
 **Processamento e pós processamento 45 dias**
+**Revisão : 5 dias**
 
 ### Opções além do cfd:
 **Podemos ultilizar além do CFD uma simulação em um tunel de vento,cálculos númericos e tabelas no Exel. **
@@ -42,11 +59,11 @@ Estamos ultilizando um perfil NACA 0012 com o tamanho da corda de 1000 milimetro
 
 ![numero de pontos](https://user-images.githubusercontent.com/70406366/95993724-d5d40780-0e05-11eb-9a12-c1b9fbad3d23.PNG) 
   
-  Fig 1: Números de pontos
+  Fig 0.1 Números de pontos
 
  ![geometria](https://user-images.githubusercontent.com/70406366/96736287-d71bac00-1392-11eb-9b26-1cd477ba4365.png)
 
-  Fig 2: Geometria da malha 
+  Fig  0.2 Geometria da malha 
 ### Modelagem do problema 
 
 - Desenhos CAD mostrando a geometria do problema.

@@ -39,14 +39,12 @@ O objetivo do relatório é realizar a aplicação de instrumentos básicos de g
 
 
 Estamos ultilizando um perfil NACA 0012 com o tamanho da corda de 1000 milimetros,e com 200 pontos para traçarmos o perfil.Estabelecemos um domíno onde a parede horizontal esta a 10 vezes o tamanho da corda e a horizontal 20 vezes o tamanho da corda ,para avaliarmos durante a simulação  a influência dos efeitos de parede no nosso projeto.**
-<p align="center">
-       ![numero de pontos](https://user-images.githubusercontent.com/70406366/95993724-d5d40780-0e05-11eb-9a12-c1b9fbad3d23.PNG) 
-       <p align="center">
-              Fig 1: Números de pontos
-<p align="center">
-       ![geometria](https://user-images.githubusercontent.com/70406366/96736287-d71bac00-1392-11eb-9b26-1cd477ba4365.png)
-              <p align="center">
-                     Fig 2: Geometria da malha 
+
+![numero de pontos](https://user-images.githubusercontent.com/70406366/95993724-d5d40780-0e05-11eb-9a12-c1b9fbad3d23.PNG) 
+Fig 1: Números de pontos
+
+ ![geometria](https://user-images.githubusercontent.com/70406366/96736287-d71bac00-1392-11eb-9b26-1cd477ba4365.png)
+Fig 2: Geometria da malha 
 ### Modelagem do problema 
 
 - Desenhos CAD mostrando a geometria do problema.

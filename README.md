@@ -31,7 +31,8 @@ Fig Fórmula do número de reynolds
 
 **Em relação ao Y+ Utilizaremos calculadora online  **
 
-![CodeCogsEqn](https://user-images.githubusercontent.com/70406366/96739589-53fc5500-1396-11eb-99d6-962d58b81128.gif
+![CodeCogsEqn](https://user-images.githubusercontent.com/70406366/96739589-53fc5500-1396-11eb-99d6-962d58b81128.gif)
+
 
 Fig Fórmula do Y+
 

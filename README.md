@@ -34,7 +34,7 @@ Fig Fórmula do número de reynolds
 ![CodeCogsEqn](https://user-images.githubusercontent.com/70406366/96739589-53fc5500-1396-11eb-99d6-962d58b81128.gif)
 
 
-Fig Fórmula do Y+
+**Fig Fórmula do Y+**
 
 ### Precisão
 **Teremos uma precisão mínima de arrasto e sutentação de 5%.**
@@ -60,11 +60,23 @@ Estamos ultilizando um perfil NACA 0012 com o tamanho da corda de 1000 milimetro
 
 ![numero de pontos](https://user-images.githubusercontent.com/70406366/95993724-d5d40780-0e05-11eb-9a12-c1b9fbad3d23.PNG) 
   
-  Fig 0.1 Números de pontos
+  Fig Números de pontos
+  
+  ![image](https://user-images.githubusercontent.com/70406366/96740463-3da2c900-1397-11eb-8ec6-671f10f38ecd.png)
+  
+  Fig Geometria Aerofólio
 
  ![geometria](https://user-images.githubusercontent.com/70406366/96736287-d71bac00-1392-11eb-9b26-1cd477ba4365.png)
 
-  Fig  0.2 Geometria da malha 
+  Fig   Geometria da malha 
+  
+  ![WhatsApp Image 2020-10-15 at 20 01 33](https://user-images.githubusercontent.com/70406366/96740905-aa1dc800-1397-11eb-86af-37e567161650.jpeg)
+  
+  Fig Geometria da malha 2
+  
+  ![image](https://user-images.githubusercontent.com/70406366/96741454-2dd7b480-1398-11eb-8d9d-58cc01001e5d.png)
+
+  Fig Desenho esquemático da modelagem do problema
 ### Modelagem do problema 
 
 - Desenhos CAD mostrando a geometria do problema.

@@ -29,16 +29,18 @@ O objetivo do relatório é realizar a aplicação de instrumentos básicos de g
 ### Precisão
 **Teremos uma precisão mínima de arrasto e sutentação de 5%.**
 ### Prazos: 
-**O prazo de entrega para este trabalho será para o dia 04 de dezembro de 2020.Dessa forma segmentaremos as principai partes sendo :
+**O prazo de entrega para este trabalho será para o dia 04 de dezembro de 2020.Dessa forma segmentaremos as principais partes sendo :
 
 Modelagem: 10 dias
 
 Pré-processamento: 20 dias
 
 Processamento e pós processamento 45 dias
-**
+
 ### Opções além do cfd:
 **Podemos ultilizar além do CFD uma simulação em um tunel de vento,cálculos númericos e tabelas no Exel. **
+
+
 ### Geometria 
 
 ### Modelagem do problema 

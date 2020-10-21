@@ -32,6 +32,7 @@ O objetivo do relatório é realizar a aplicação de instrumentos básicos de g
 **O prazo de entrega para este trabalho será para o dia 04 de dezembro de 2020.Dessa forma segmentaremos as principai partes sendo :
 
 Modelagem: 10 dias
+
 Pré-processamento: 20 dias
 
 Processamento e pós processamento 45 dias

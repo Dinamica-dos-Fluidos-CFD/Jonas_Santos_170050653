@@ -19,7 +19,7 @@ O objetivo do relatório é realizar a aplicação de instrumentos básicos de g
 **com a a finalidade de se determinar um valor de coeficiente de arrasto e sustentação para o aerofólio NACA 0012 para o ângulo de ataque de 12 graus.Além de determinar se está ocorrendo o fenômeno de *stall* neste ângulo de ataque.**
 ### Hipóteses 
 **Usaresmo como hipóteses que o escoamento seja 2D ,turbulento e isotérmico.**
-![image](https://user-images.githubusercontent.com/70406366/96738208-dedc5000-1394-11eb-803b-4e647f700351.png)
+![CodeCogsEqn](https://user-images.githubusercontent.com/70406366/96741737-873fe380-1398-11eb-9d46-aafaa55f6ffe.gif)
 
 Fig Fórmula do número de reynolds
 

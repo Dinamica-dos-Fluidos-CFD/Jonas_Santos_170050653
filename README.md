@@ -5,39 +5,50 @@
   
   
   
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 #  Objetivo e finalidade:
 **Realizaremos uma análise bidimensional com o aerofólio da NACA0012 ultilizando como recurso o ANSYS Fluent Software.Determinaremos o Cl e o CD  para o âgulo de ataque de 0º graus para validação  do método ultilizado , além de obter os gráficos de pressão , velocidade e turbulência ao redor das bordas do aerofólio.Com a a finalidade de ser um estudo académico determinaremos  um valor de coeficiente de arrasto e sustentação para o aerofólio NACA 0012 para o ângulo de ataque de 12 graus.Ademais procuraremos determinar se está ocorrendo o fenômeno de *stall* neste ângulo de ataque.**
 
 # Requisitos:
-**Os requisitos da solução são : um conhecimento prévio no estudo de aeronaves ou aeromodelos,manejo do programa Ansys,valores de arrasto e de sustentação.**
+
+**O intuito desse projeto é obter um modelo de cálculo computacional que nos forneça:**
+ * **valores de arrasto e de sustentação para o ângulo de ataque de 0 graus;**
+ * **Comparar os valores obtidos com os encontrados no site https://turbmodels.larc.nasa.gov/naca0012_val.html;**
+ * **validarmos o método**
+ * **Determinar os valores de cd e cl para o ângulo de ataque de 12 graus;**
+ * **Comparar os valores obtidos com os encontrados no site https://turbmodels.larc.nasa.gov/naca0012_val.html;**
+ * **validarmos os resultados para o ângulo de ataque de 12 graus;**
+ * **realizar um estudo paramétrico da velocidade de entrada do escoamento,afim de obter os cenários de desempenho aerodinâmico do perfil.Iremos anasisar as velocidades até o limite de  Ma=(0,3),pois estamos trabalhando com a hipotése de escoamento incompressível**
 
 
 # Hipóteses 
-**Usaresmo como hipóteses que o escoamento seja 2D ,turbulento e isotérmico.**
 
-
+**Usaresmo como hipóteses :
+ * **que o escoamento seja 2D;**
+ * **turbulento;**
+ * **isotérmico**
+ * **número de Reynolds**
+ 
+ 
 ![CodeCogsEqn](https://user-images.githubusercontent.com/70406366/96741737-873fe380-1398-11eb-9d46-aafaa55f6ffe.gif)
+                                                                  
+  **Re = 6000000**
 
 
-
-**Re = 6000000**
-
-
-**densidade do ar  de 1,2754 kg/m3**
+* **densidade do ar  de 1,2754 kg/m3**
 
 
-  **escoamento imcompresivel (Ma<0.3)**
+ * **escoamento incompreensível (Ma<0.3)**
 
 
-**u=88.65m/s**
+*  **u=88.65m/s**
 
 
-**Ma = 0.258**
+* **Ma = 0.258**
 
 
-**Em relação ao Y+ Utilizaremos calculadora online**
+* **Em relação ao Y+ Utilizaremos calculadora online**
 
 ![CodeCogsEqn](https://user-images.githubusercontent.com/70406366/96739589-53fc5500-1396-11eb-99d6-962d58b81128.gif)
 
@@ -62,6 +73,39 @@
 
 **Podemos ultilizar além do CFD uma simulação em um tunel de vento,cálculos númericos e tabelas no Exel.**
 
+# Modelagem
+
+![775px-Lift-force-pt svg](https://user-images.githubusercontent.com/70406366/96885440-f715a300-1458-11eb-9152-e54a76a23338.png)
+
+
+**Temos um perfil de aerofólio NACA 0012,com um secção bidimensional projetada para provocar variação na direção da velocidade de um fluido,no nosso caso o ar.A reação do ar sobre o aerofólio ,devido a variação na quantidade de movimento, podemos decompor em ângulos normais a direção de seu movimento.**
+
+**As principais forças atuantes no  aerofólio são:**
+
+* **Sustentação ;**
+* **Arrasto;**
+* **Empuxo;**
+* **Peso.**
+
+* **A sustentação é a componente da resultante perpendicular ao vento relativo.Ela pode ser decomposta em dois vetores que são a força de sustentação e a força de arrasto.Ela é denominada pela sequinte fórmula:**
+
+![image](https://user-images.githubusercontent.com/70406366/96925387-75d70400-148a-11eb-9cfe-80dfcc083bf3.png)
+
+* **O arrasto é gerada pela resistência do ar e tende a puxar o avião para trás, uma força oposta ao sentido de movimento.Ela é calculada pela sequinte fórmula:**
+
+![formula arrasto](https://user-images.githubusercontent.com/70406366/96927474-7c1aaf80-148d-11eb-9123-64d9124ef67f.gif)
+
+
+* **Empuxo gerado pelo motor do avião e tem a finalidade de movimentar o avião para frente,produzida por uma turbina ou hélice.Representado na fórmula a seguir por 'T'.**
+
+
+![image](https://user-images.githubusercontent.com/70406366/96926559-17128a00-148c-11eb-9952-ee535b4b21c2.png)
+
+**onde:** ![image](https://user-images.githubusercontent.com/70406366/96926699-4aedaf80-148c-11eb-8817-7e7bdb31d536.png) **é a taxa de massa em relação ao tempo e 'v' é a velocidade dos gases de exaustão.**
+
+* **Peso é uma força que atua sempre na direção vertical e é consequência da força da gravidade.Ela é calculada pela sequinte fórmula:**
+
+![image](https://user-images.githubusercontent.com/70406366/96926199-a53a4080-148b-11eb-9c2f-ccc0217091f2.png)
 
 # Geometria 
 
@@ -84,9 +128,11 @@
   Fig Geometria da malha 2
   
   ![image](https://user-images.githubusercontent.com/70406366/96741454-2dd7b480-1398-11eb-8d9d-58cc01001e5d.png)
+  
 
   Fig Desenho esquemático da modelagem do problema
 # Modelagem do problema 
+![775px-Lift-force-pt svg](https://user-images.githubusercontent.com/70406366/96885440-f715a300-1458-11eb-9152-e54a76a23338.png)
 
 - Desenhos CAD mostrando a geometria do problema.
 - Desenho esquemático da modelagem do problema.

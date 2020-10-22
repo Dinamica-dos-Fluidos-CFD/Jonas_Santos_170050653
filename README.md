@@ -160,6 +160,8 @@
 
 
 ![malha perto do aerofolio](https://user-images.githubusercontent.com/70406366/96934086-0405b700-1498-11eb-808e-e8f6fc0845f1.PNG)
+![image](https://user-images.githubusercontent.com/70406366/96936893-4e3d6700-149d-11eb-9460-4601acf3ab5f.png)
+
 
 
 **Dessa maneira concluimos que nossa malha está adequada para prosseguirmos na simulação**
@@ -179,7 +181,36 @@
 
 ![image](https://user-images.githubusercontent.com/70406366/96936153-ed615f00-149b-11eb-9535-44f8c48843ff.png)
 
-# Solution 
+# TESTE 01 : Validação para o ângulo de ataque de 0 graus.
+### Para o cd obtemos :
+![CD-grafico-1_angulo-0](https://user-images.githubusercontent.com/70406366/96936763-0ddde900-149d-11eb-8b8e-798a63cd93b4.png)
+
+### Para o cl obtemos :
+![CL-grafico-1_angulo-0](https://user-images.githubusercontent.com/70406366/96936764-0f0f1600-149d-11eb-99e3-b9d0045ee290.png)
+
+### Em relação aos residuais obtemos :
+![Residuais_grafico-1_angulo-0_](https://user-images.githubusercontent.com/70406366/96936765-0f0f1600-149d-11eb-8c59-7857c2a815cf.png)
+
+### Analisando os resultados de cd e cl :
+![image](https://user-images.githubusercontent.com/70406366/96937140-dfacd900-149d-11eb-8774-e524019273f1.png)
+
+**No início do projeto estipulamos um erro aceitável de até 5%**
+**para isso vamos primeiramente comparar os nossos valores obtidos para o ângulo de ataque de 0 graus com os resultados que podemos obter acessando: https://turbmodels.larc.nasa.gov/naca0012_val.html.**
+
+![naca tabela](https://user-images.githubusercontent.com/70406366/96937702-26e79980-149f-11eb-9f62-76edfe39d707.PNG)
+
+**Sendo a fórmula do erro :**
+
+![formula_erro](https://user-images.githubusercontent.com/70406366/96937435-7b3e4980-149e-11eb-8c48-30de3e6a799f.gif)
+
+**Substituindo os valores** 
+
+![image](https://user-images.githubusercontent.com/70406366/96937563-c8bab680-149e-11eb-95e4-00db29895dcb.png)
+
+**Enquanto isso para cl segundo o site https://turbmodels.larc.nasa.gov/naca0012_val.html possue valor de aproximadamente zero enquanto na nossa simulação optemos um valor muito pequeno sendo próximo de zero (cl = 1.470869e-06)**
+
+**O erro obtido foi menor que o esperado validando assim o método.**
+
 
 
 ### 3.	Processamento e Pós-Processamento:

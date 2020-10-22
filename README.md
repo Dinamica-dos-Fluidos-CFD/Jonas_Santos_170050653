@@ -26,10 +26,19 @@ O objetivo do relatório é realizar a aplicação de instrumentos básicos de g
 Fig Fórmula do número de reynolds
 
 **Re = 6000000**
+
+
 **densidade do ar  de 1,2754 kg/m3**
+
+
 **escoamento imcompresivel (Ma<0.3)**
+
+
 **u=88.65m/s**
+
+
 **Ma = 0.258**
+
 
 **Em relação ao Y+ Utilizaremos calculadora online  **
 

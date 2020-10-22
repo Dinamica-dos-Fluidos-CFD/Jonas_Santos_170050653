@@ -1,5 +1,15 @@
 # Jonas_Santos_170050653
 
+ ![logo unb](https://user-images.githubusercontent.com/70406366/96888717-4b6e5200-145c-11eb-8023-084131205094.png) 
+ # Projeto de Dinâmica dos Fluidos Computacional em volta do perfil aerofólio da NACA0012
+  
+  
+  
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  
+ ________________________________________________________________________________________________________________________________________________________________________________
+###Rascunho
+
 
 O objetivo do relatório é realizar a aplicação de instrumentos básicos de gestão de projetos para a elaboração, planejamento, preparação e execução de um projeto de Dinâmica dos Fluidos Computacional.
 
@@ -31,7 +41,7 @@ O objetivo do relatório é realizar a aplicação de instrumentos básicos de g
 **densidade do ar  de 1,2754 kg/m3**
 
 
-**escoamento imcompresivel (Ma<0.3)**
+  **escoamento imcompresivel (Ma<0.3)**
 
 
 **u=88.65m/s**
@@ -60,7 +70,7 @@ O objetivo do relatório é realizar a aplicação de instrumentos básicos de g
 
 **Revisão : 5 dias**
 
-# Opções além do cfd:
+# Opções além do CFD:
 
 **Podemos ultilizar além do CFD uma simulação em um tunel de vento,cálculos númericos e tabelas no Exel.**
 
@@ -93,14 +103,26 @@ O objetivo do relatório é realizar a aplicação de instrumentos básicos de g
 - Desenhos CAD mostrando a geometria do problema.
 - Desenho esquemático da modelagem do problema.
 
+![perfil 2](https://user-images.githubusercontent.com/70406366/96884949-79ea2e00-1458-11eb-930b-517b70a2b72d.png)
+![perfil](https://user-images.githubusercontent.com/70406366/96884871-62ab4080-1458-11eb-977a-b748181ac513.png)
+![775px-Lift-force-pt svg](https://user-images.githubusercontent.com/70406366/96885440-f715a300-1458-11eb-9152-e54a76a23338.png)
+
+
 ### 2.	Pré-Processamento:
 
 A segunda etapa deverá conter as respostas para as seguintes perguntas:
 
 - Quanto detalhado o domínio de cálculo precisa ser?
+**O domínio usado para o estudo é de 20 vezes o tamanho da corda na vertical e 10 vezes o tamanho da corda na horizontal nos proporcionando um Y+ de aproximadamente** ![y+](https://user-images.githubusercontent.com/70406366/96887655-2decb880-145b-11eb-9b05-8e8b6d971e6d.gif)
 - A geometria está adequada?
+A geometria está adequada para o estudo pois ultilizmos a quantidade máxima de pontos oriundos do  site http://airfoiltools.com/airfoil/naca4digit?MNaca4DigitForm%5Bcamber%5D=0&MNaca4 
+![numero de pontos](https://user-images.githubusercontent.com/70406366/95993724-d5d40780-0e05-11eb-9a12-c1b9fbad3d23.PNG)
+
+
 - Que tipo de malha e método usar? Estruturada ou não-estruturada? Volumes Finitos ou Elementos Finitos?
+**não estruturada composta de elementos quadriláteros,o uso da malha não estruturada faz com que o código a ser programado seja mais complexo. Também impõe que se tenha que acessar a matriz de conectividade várias vezes, aumentando o número de operações na máquina em relação à malha estruturada.Com Volumes finitos**
 - Quais são as informações de entrada (Input) do problema?
+****
 - Que escolhas devem ser feitas em relação ao processamento da solução?
 - Quais são os prazos e disponibilidade de capacidade computacional para a análise em questão? 
 

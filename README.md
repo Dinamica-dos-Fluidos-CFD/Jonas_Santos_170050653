@@ -6,9 +6,7 @@
   
   
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  
- ________________________________________________________________________________________________________________________________________________________________________________
-###Rascunho
+
 
 
 O objetivo do relatório é realizar a aplicação de instrumentos básicos de gestão de projetos para a elaboração, planejamento, preparação e execução de um projeto de Dinâmica dos Fluidos Computacional.
@@ -21,12 +19,13 @@ O objetivo do relatório é realizar a aplicação de instrumentos básicos de g
 
 
 
-#  Objetivo:
-**O principal objetivo do projeto fazer uma simulação computacional com o aerofólio da NACA0012**  
+#  Objetivo e finalidade:
+**Realizaremos uma análise bidimensional com o aerofólio da NACA0012 ultilizando como recurso o ANSYS Fluent Software.Determinaremos o Cl e o CD  para o âgulo de ataque de 0º graus para validação  do perfil aerodinâmico , além de obter os gráficos de pressão , velocidade e turbulência ao redor das bordas do aerofólio.Com a a finalidade de ser um estudo académico determinaremos  um valor de coeficiente de arrasto e sustentação para o aerofólio NACA 0012 para o ângulo de ataque de 12 graus.Ademais procuraremos determinar se está ocorrendo o fenômeno de *stall* neste ângulo de ataque.**
+
 # Requisitos:
 **Os requisitos da solução são : um conhecimento prévio no estudo de aeronaves ou aeromodelos,manejo do programa Ansys,valores de arrasto e de sustentação.**
-# Finalidade:
-**com a a finalidade de se determinar um valor de coeficiente de arrasto e sustentação para o aerofólio NACA 0012 para o ângulo de ataque de 12 graus.Além de determinar se está ocorrendo o fenômeno de *stall* neste ângulo de ataque.**
+
+
 # Hipóteses 
 **Usaresmo como hipóteses que o escoamento seja 2D ,turbulento e isotérmico.**
 
@@ -62,13 +61,14 @@ O objetivo do relatório é realizar a aplicação de instrumentos básicos de g
 # Prazos: 
 **O prazo de entrega para este trabalho será para o dia 04 de dezembro de 2020.Dessa forma segmentaremos as principais partes sendo :**
 
-**Modelagem: 10 dias**
+|Etapa do Projeto                            |Período   |
+|--------------------------------------------|----------|
+|1ª Etapa: Modelagem                         |10 dias   |
+|2ª Etapa: Pré-Processamento                 |20 dias   |
+|3ª Etapa: Processamento e Pós-Processamento |45 dias   |
+|4ª Etapa: revisão                           |05 dias   |
 
-**Pré-processamento: 20 dias**
 
-**Processamento e pós processamento 45 dias**
-
-**Revisão : 5 dias**
 
 # Opções além do CFD:
 

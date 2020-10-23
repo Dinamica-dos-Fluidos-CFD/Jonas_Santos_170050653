@@ -211,23 +211,10 @@
 
 **O erro obtido foi menor que o esperado validando assim o método.**
 
+### tempo de resposta 
+ **nessa simulação ultilizamos como parametros 5000 interações ,um reporting interval de 10 tempos e um profile update de 10 intervalos .
+ 
+ ![image](https://user-images.githubusercontent.com/70406366/97061222-911a4000-156c-11eb-94b0-4278e88c8d0b.png)
 
-
-### 3.	Processamento e Pós-Processamento:
-
-A terceira etapa deverá conter as respostas para as seguintes perguntas:
-
-- O histórico de convergência do cálculo está adequado?
-- Quanto tempo a simulação está levando para ser processada?
-- Os resíduos estão em valores aceitáveis?
-- A simulação fornece resultados qualitativos?
-- É possível calcular resultados quantitativos e qualitativos com o que a simulação calculou?
-- Os resultados estão de acordo com a realidade física do escoamento?
-
-O projeto deverá conter nesta etapa:
-
-- Análise dos resultados obtidos.
-- Comparação dos resultados numéricos com os resultados analíticos de cada problema.
-- Imagens de visualização do escoamento.
-- Análise dos resultados obtidos pelo estudo paramétrico.
+**Resultando por volta de 2 minutos o tempo de processamento,entretanto nas primeiras tentativas quando deixamos completar as 5000 interações o tempo estimado é de aproximadamente de 10 minutos**
 

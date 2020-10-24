@@ -209,12 +209,79 @@
 
 **Enquanto isso para cl segundo o site https://turbmodels.larc.nasa.gov/naca0012_val.html possue valor de aproximadamente zero enquanto na nossa simulação optemos um valor muito pequeno sendo próximo de zero (cl = 1.470869e-06)**
 
-**O erro obtido foi menor que o esperado validando assim o método.**
+**O erro obtido foi menor que o esperado validando assim o método.Assim o histórico de convergência do cálculo está adequado**
 
-### tempo de resposta 
- **nessa simulação ultilizamos como parametros 5000 interações ,um reporting interval de 10 tempos e um profile update de 10 intervalos .
+### Tempo de resposta 
+ **Nessa simulação ultilizamos como parametros 5000 interações ,um reporting interval de 10 tempos e um profile update de 10 intervalos.**
  
  ![image](https://user-images.githubusercontent.com/70406366/97061222-911a4000-156c-11eb-94b0-4278e88c8d0b.png)
 
 **Resultando por volta de 2 minutos o tempo de processamento,entretanto nas primeiras tentativas quando deixamos completar as 5000 interações o tempo estimado é de aproximadamente de 10 minutos**
 
+# Análise dos gráficos de contorno
+
+### Pressão
+
+![image](https://user-images.githubusercontent.com/70406366/97062101-c96f4d80-156f-11eb-945d-b0ac3c6c4f43.png)
+
+### velocidade
+
+![image](https://user-images.githubusercontent.com/70406366/97062139-f4f23800-156f-11eb-8097-b5f48f22f366.png)
+
+### Wall plus *vs* position
+
+![image](https://user-images.githubusercontent.com/70406366/97062203-371b7980-1570-11eb-911e-497d41e36a2a.png)
+
+
+# Teste 2 : Análise para o ângulo de ataque de 12 graus
+
+**Precisamos dos valores do seno e cosseno para o ataque de 12 graus **
+
+![image](https://user-images.githubusercontent.com/70406366/97062754-b447ee00-1572-11eb-8ec0-0403632ab75b.png)
+![image](https://user-images.githubusercontent.com/70406366/97062796-e22d3280-1572-11eb-89d3-94652433dc4d.png)
+
+**Depois, mudamos os parametros de entrada nas condições de borda**
+
+![image](https://user-images.githubusercontent.com/70406366/97062989-c0807b00-1573-11eb-8f2d-ba19044fc13d.png)
+
+**muldamos o repositório de definições tanto do Drag quanto do lift**
+
+![image](https://user-images.githubusercontent.com/70406366/97063053-09d0ca80-1574-11eb-992a-9b5f82426cc7.png)
+![image](https://user-images.githubusercontent.com/70406366/97063134-59af9180-1574-11eb-8b73-5e2fa8eac134.png)
+
+**lembrando que no valor de X do lift colocamos o - sin(12),pois lift e drag são sempre relativos a movimentação do fluido.Sendo lift perpendicular ao drag enquanto o drag está na direção do movimento do fluido.**
+
+### Avaliando os valores de cd e cl
+
+**A pertir dessa simulação obtemos:**
+![image](https://user-images.githubusercontent.com/70406366/97063358-a3e54280-1575-11eb-8395-33f1469dc5dd.png)
+
+### Comparando os valores e calculando o erro
+
+**Ultilizando como referência os valores tabelados no site https://turbmodels.larc.nasa.gov/NACA0012_validation/CLCD_Ladson_expdata.dat .Obtemos :**
+
+![image](https://user-images.githubusercontent.com/70406366/97063444-2ec63d00-1576-11eb-8104-8f1a56428b7a.png) 
+
+
+# Verificação do fenômeno de Estol para o ângulo de ataque de 12 graus
+
+
+
+
+### 3.	Processamento e Pós-Processamento:
+
+A terceira etapa deverá conter as respostas para as seguintes perguntas:
+
+- O histórico de convergência do cálculo está adequado? **OK**
+- Quanto tempo a simulação está levando para ser processada?**OK**
+- Os resíduos estão em valores aceitáveis?
+- A simulação fornece resultados qualitativos?
+- É possível calcular resultados quantitativos e qualitativos com o que a simulação calculou?
+- Os resultados estão de acordo com a realidade física do escoamento?
+
+O projeto deverá conter nesta etapa:
+
+- Análise dos resultados obtidos.
+- Comparação dos resultados numéricos com os resultados analíticos de cada problema.
+- Imagens de visualização do escoamento.
+- Análise dos resultados obtidos pelo estudo paramétrico.

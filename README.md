@@ -326,14 +326,20 @@
 
 # Referências
 
-Fox, R.W., McDonald, A.T. and Pritchard, P.J.; “ Introdução à Mecânica dos Fluidos”, LTC, 6a
-ed. (2004)
-Anderson Jr., John D., Mateus, Fundamentos de Engenharia Aeronáutica: Introdução ao Voo 6a
-ed.
+Fox, R.W., McDonald, A.T. and Pritchard, P.J.; “ Introdução à Mecânica dos Fluidos”, LTC, 6a ed. (2004)
+
+
+Anderson Jr., John D., Mateus, Fundamentos de Engenharia Aeronáutica: Introdução ao Voo 6aed.
+
+
 White, F.M., "Viscous Flow", McGraw Hill, 3rd ed., 2006.
 
 **sites:**
 
 https://turbmodels.larc.nasa.gov/naca0012_val.html
+
+
 https://www.youtube.com/watch?v=TAqhMwm4mLg&t=2615s&ab_channel=AnthonyT
+
 https://referenciabibliografica.net/a/pt-br/ref/abnt
+

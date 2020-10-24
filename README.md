@@ -250,7 +250,7 @@
 
 **lembrando que no valor de X do lift colocamos o - sin(12), pois lift e drag são sempre relativos a movimentação do fluido. Sendo lift perpendicular ao drag enquanto o drag está na direção do movimento do fluido.**
 
-### Avaliando os valores de cd e cl
+### Avaliando os valores obtidos
 
 **A pertir dessa simulação obtemos para os valores residuais:**
 
@@ -281,6 +281,25 @@
 **enquanto o do cd:**
 
 ![image](https://user-images.githubusercontent.com/70406366/97065041-f37d3b80-1580-11eb-81bd-98b3dc18d169.png)
+
+# Gráficos das condições de contorno
+
+### Pressão
+
+![image](https://user-images.githubusercontent.com/70406366/97065217-8074c480-1582-11eb-8016-af6b422333f7.png)
+
+### Velocidade
+
+![image](https://user-images.githubusercontent.com/70406366/97065230-92566780-1582-11eb-8eb3-1d98990b12f5.png)
+
+### Turbulence viscosity ratio
+
+![image](https://user-images.githubusercontent.com/70406366/97065389-540d7800-1583-11eb-9c57-7021ed467847.png)
+
+#### Tubulence Wall pluss
+
+![image](https://user-images.githubusercontent.com/70406366/97065452-bcf4f000-1583-11eb-9fa5-abc870404094.png)
+
 
 # Verificação do fenômeno de Estol para o ângulo de ataque de 12 graus
 

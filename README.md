@@ -213,10 +213,7 @@
 
 ### Tempo de resposta 
  **Nessa simulação ultilizamos como parametros 5000 interações ,um reporting interval de 10 tempos e um profile update de 10 intervalos.**
- 
- ![image](https://user-images.githubusercontent.com/70406366/97061222-911a4000-156c-11eb-94b0-4278e88c8d0b.png)
-
-**Resultando por volta de 2 minutos o tempo de processamento,entretanto nas primeiras tentativas quando deixamos completar as 5000 interações o tempo estimado é de aproximadamente de 10 minutos**
+ **Resultando por volta de 10 minutos o tempo de processamento.**
 
 # Análise dos gráficos de contorno
 

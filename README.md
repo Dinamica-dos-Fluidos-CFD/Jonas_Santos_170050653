@@ -254,9 +254,24 @@
 ### Avaliando os valores de cd e cl
 
 **A pertir dessa simulação obtemos:**
-![image](https://user-images.githubusercontent.com/70406366/97063358-a3e54280-1575-11eb-8395-33f1469dc5dd.png)
+
+**Para os valores residuais:**
+
+![image](https://user-images.githubusercontent.com/70406366/97064648-da26c000-157d-11eb-8934-7542d0799ec4.png)
+
+**Para os valores de cl:**
+
+![image](https://user-images.githubusercontent.com/70406366/97064680-13f7c680-157e-11eb-87de-84fe9d804d92.png)
+
+
+**Para os valores de cd:**
+
+![image](https://user-images.githubusercontent.com/70406366/97064688-2bcf4a80-157e-11eb-8920-ae0258cff523.png)
+
 
 ### Comparando os valores e calculando o erro
+
+![image](https://user-images.githubusercontent.com/70406366/97064634-b6637a00-157d-11eb-98cd-6c72a05e6022.png)
 
 **Ultilizando como referência os valores tabelados no site https://turbmodels.larc.nasa.gov/NACA0012_validation/CLCD_Ladson_expdata.dat .Obtemos :**
 

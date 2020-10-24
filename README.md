@@ -232,12 +232,14 @@
 
 # Teste 2 : Análise para o ângulo de ataque de 12 graus
 
-**Precisamos dos valores do seno e cosseno para o ataque de 12 graus **
+**Precisamos dos valores do seno e cosseno para o ataque de 12 graus.**
 
 ![image](https://user-images.githubusercontent.com/70406366/97062754-b447ee00-1572-11eb-8ec0-0403632ab75b.png)
+
+
 ![image](https://user-images.githubusercontent.com/70406366/97062796-e22d3280-1572-11eb-89d3-94652433dc4d.png)
 
-**Depois, mudamos os parametros de entrada nas condições de borda**
+**Depois, mudamos os parametros de entrada nas condições de borda.**
 
 ![image](https://user-images.githubusercontent.com/70406366/97062989-c0807b00-1573-11eb-8f2d-ba19044fc13d.png)
 
@@ -246,13 +248,11 @@
 ![image](https://user-images.githubusercontent.com/70406366/97063053-09d0ca80-1574-11eb-992a-9b5f82426cc7.png)
 ![image](https://user-images.githubusercontent.com/70406366/97063134-59af9180-1574-11eb-8b73-5e2fa8eac134.png)
 
-**lembrando que no valor de X do lift colocamos o - sin(12),pois lift e drag são sempre relativos a movimentação do fluido.Sendo lift perpendicular ao drag enquanto o drag está na direção do movimento do fluido.**
+**lembrando que no valor de X do lift colocamos o - sin(12), pois lift e drag são sempre relativos a movimentação do fluido. Sendo lift perpendicular ao drag enquanto o drag está na direção do movimento do fluido.**
 
 ### Avaliando os valores de cd e cl
 
-**A pertir dessa simulação obtemos:**
-
-**Para os valores residuais:**
+**A pertir dessa simulação obtemos para os valores residuais:**
 
 ![image](https://user-images.githubusercontent.com/70406366/97064648-da26c000-157d-11eb-8934-7542d0799ec4.png)
 
@@ -274,6 +274,13 @@
 
 ![image](https://user-images.githubusercontent.com/70406366/97063444-2ec63d00-1576-11eb-8104-8f1a56428b7a.png) 
 
+**Dessa maneira o erro do cl será de :**
+
+![image](https://user-images.githubusercontent.com/70406366/97064894-f3c90700-157f-11eb-9f95-6b013a4ee0e4.png)
+
+**enquanto o do cd:**
+
+![image](https://user-images.githubusercontent.com/70406366/97065041-f37d3b80-1580-11eb-81bd-98b3dc18d169.png)
 
 # Verificação do fenômeno de Estol para o ângulo de ataque de 12 graus
 

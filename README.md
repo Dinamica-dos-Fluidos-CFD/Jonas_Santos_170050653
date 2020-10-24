@@ -300,11 +300,9 @@
 
 ![image](https://user-images.githubusercontent.com/70406366/97065452-bcf4f000-1583-11eb-9fa5-abc870404094.png)
 
+### Pontanto ,de maneira geral,segundo os gráficos acima não está ocorendo o fenômeno de *stall* para o ángulo de ataque de 12 graus.
 
 
-
-
-# Verificação do fenômeno de Estol para o ângulo de ataque de 12 graus
 
 
 

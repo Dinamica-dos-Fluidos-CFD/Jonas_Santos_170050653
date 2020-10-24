@@ -182,14 +182,18 @@
 ![image](https://user-images.githubusercontent.com/70406366/96936153-ed615f00-149b-11eb-9535-44f8c48843ff.png)
 
 # TESTE 01 : Validação para o ângulo de ataque de 0 graus.
+
 ### Para o cd obtemos :
 ![CD-grafico-1_angulo-0](https://user-images.githubusercontent.com/70406366/96936763-0ddde900-149d-11eb-8b8e-798a63cd93b4.png)
+**Podemos observar um resultado satisfatório pois vemos o valor convergindo para um resultado mais preciso de cd.**
 
 ### Para o cl obtemos :
 ![CL-grafico-1_angulo-0](https://user-images.githubusercontent.com/70406366/96936764-0f0f1600-149d-11eb-99e3-b9d0045ee290.png)
+**Podemos observar um resultado satisfatório pois vemos o valor convergindo para um resultado mais preciso de cl.**
 
 ### Em relação aos residuais obtemos :
 ![Residuais_grafico-1_angulo-0_](https://user-images.githubusercontent.com/70406366/96936765-0f0f1600-149d-11eb-8c59-7857c2a815cf.png)
+**Podemos observar um resultado satisfatório pois vemos o valor tentendo a zero.**
 
 ### Analisando os resultados de cd e cl :
 ![image](https://user-images.githubusercontent.com/70406366/96937140-dfacd900-149d-11eb-8774-e524019273f1.png)
@@ -220,10 +224,12 @@
 ### Pressão
 
 ![image](https://user-images.githubusercontent.com/70406366/97062101-c96f4d80-156f-11eb-945d-b0ac3c6c4f43.png)
+**Podemos observar que o ponto de maior pressão se encontra no bordo de ataque ,enquanto no intradoso e extradoso posuem gradientes de pressão similares.**
 
 ### velocidade
 
 ![image](https://user-images.githubusercontent.com/70406366/97062139-f4f23800-156f-11eb-8097-b5f48f22f366.png)
+**Nota-se que os pontos de maior velocidade se encontram no intradoso e no extradoso do perfil.**
 
 ### Wall plus *vs* position
 
@@ -256,17 +262,22 @@
 
 ![image](https://user-images.githubusercontent.com/70406366/97064648-da26c000-157d-11eb-8934-7542d0799ec4.png)
 
+**Podemos observar um resultado satisfatório pois vemos os valores dos residuais tentendo a valores próximos de zero.**
+
+
 **Para os valores de cl:**
 
 ![image](https://user-images.githubusercontent.com/70406366/97064680-13f7c680-157e-11eb-87de-84fe9d804d92.png)
 
+**Podemos observar um resultado satisfatório pois vemos o valor convergindo para um resultado mais preciso de cl.**
 
 **Para os valores de cd:**
 
 ![image](https://user-images.githubusercontent.com/70406366/97064688-2bcf4a80-157e-11eb-8920-ae0258cff523.png)
 
+**Podemos observar um resultado satisfatório pois vemos o valor convergindo para um resultado mais preciso de cd.**
 
-### Comparando os valores e calculando o erro
+### Comparando os valores e calculando o erro:
 
 ![image](https://user-images.githubusercontent.com/70406366/97064634-b6637a00-157d-11eb-98cd-6c72a05e6022.png)
 
@@ -276,9 +287,13 @@
 
 **Dessa maneira o erro do cl será de :**
 
+![formula_erro](https://user-images.githubusercontent.com/70406366/96937435-7b3e4980-149e-11eb-8c48-30de3e6a799f.gif)
+
 ![image](https://user-images.githubusercontent.com/70406366/97064894-f3c90700-157f-11eb-9f95-6b013a4ee0e4.png)
 
 **enquanto o do cd:**
+
+![formula_erro](https://user-images.githubusercontent.com/70406366/96937435-7b3e4980-149e-11eb-8c48-30de3e6a799f.gif)
 
 ![image](https://user-images.githubusercontent.com/70406366/97065041-f37d3b80-1580-11eb-81bd-98b3dc18d169.png)
 
@@ -300,27 +315,19 @@
 
 ![image](https://user-images.githubusercontent.com/70406366/97065452-bcf4f000-1583-11eb-9fa5-abc870404094.png)
 
-### Pontanto ,de maneira geral,segundo os gráficos acima não está ocorendo o fenômeno de *stall* para o ángulo de ataque de 12 graus.
+# Conclusão
+**Pontanto ,de maneira geral,segundo os gráficos acima não está ocorendo o fenômeno de *stall* para o ángulo de ataque de 12 graus.A simulação apresentou resultados qualitativos para fazermos análises de cada parte,como também quantitativos.O comportamento apresentado nos gráficos de velocidade e pressão estão de acordo com a realidade do escoamento**
 
+# Referências
 
+Fox, R.W., McDonald, A.T. and Pritchard, P.J.; “ Introdução à Mecânica dos Fluidos”, LTC, 6a
+ed. (2004)
+Anderson Jr., John D., Mateus, Fundamentos de Engenharia Aeronáutica: Introdução ao Voo 6a
+ed.
+White, F.M., "Viscous Flow", McGraw Hill, 3rd ed., 2006.
 
+**sites:**
 
-
-
-### 3.	Processamento e Pós-Processamento:
-
-A terceira etapa deverá conter as respostas para as seguintes perguntas:
-
-- O histórico de convergência do cálculo está adequado? **OK**
-- Quanto tempo a simulação está levando para ser processada?**OK**
-- Os resíduos estão em valores aceitáveis?
-- A simulação fornece resultados qualitativos?
-- É possível calcular resultados quantitativos e qualitativos com o que a simulação calculou?
-- Os resultados estão de acordo com a realidade física do escoamento?
-
-O projeto deverá conter nesta etapa:
-
-- Análise dos resultados obtidos.
-- Comparação dos resultados numéricos com os resultados analíticos de cada problema.
-- Imagens de visualização do escoamento.
-- Análise dos resultados obtidos pelo estudo paramétrico.
+https://turbmodels.larc.nasa.gov/naca0012_val.html
+https://www.youtube.com/watch?v=TAqhMwm4mLg&t=2615s&ab_channel=AnthonyT
+https://referenciabibliografica.net/a/pt-br/ref/abnt

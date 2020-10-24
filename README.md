@@ -230,7 +230,7 @@
 ![image](https://user-images.githubusercontent.com/70406366/97062203-371b7980-1570-11eb-911e-497d41e36a2a.png)
 
 
-# Teste 2 : Análise para o ângulo de ataque de 12 graus
+# TESTE 2 : Análise para o ângulo de ataque de 12 graus
 
 **Precisamos dos valores do seno e cosseno para o ataque de 12 graus.**
 
@@ -239,16 +239,16 @@
 
 ![image](https://user-images.githubusercontent.com/70406366/97062796-e22d3280-1572-11eb-89d3-94652433dc4d.png)
 
-**Depois, mudamos os parametros de entrada nas condições de borda.**
+**Depois, mudamos os Parâmetros de entrada nas condições de borda.**
 
 ![image](https://user-images.githubusercontent.com/70406366/97062989-c0807b00-1573-11eb-8f2d-ba19044fc13d.png)
 
-**muldamos o repositório de definições tanto do Drag quanto do lift**
+**Muldamos o repositório de definições tanto do Drag quanto do lift.**
 
 ![image](https://user-images.githubusercontent.com/70406366/97063053-09d0ca80-1574-11eb-992a-9b5f82426cc7.png)
 ![image](https://user-images.githubusercontent.com/70406366/97063134-59af9180-1574-11eb-8b73-5e2fa8eac134.png)
 
-**lembrando que no valor de X do lift colocamos o - sin(12), pois lift e drag são sempre relativos a movimentação do fluido. Sendo lift perpendicular ao drag enquanto o drag está na direção do movimento do fluido.**
+**Lembrando que no valor de X do lift colocamos o - sin(12), pois lift e drag são sempre relativos a movimentação do fluido. Sendo lift perpendicular ao drag enquanto o drag está na direção do movimento do fluido.**
 
 ### Avaliando os valores obtidos
 
@@ -296,9 +296,12 @@
 
 ![image](https://user-images.githubusercontent.com/70406366/97065389-540d7800-1583-11eb-9c57-7021ed467847.png)
 
-#### Tubulence Wall pluss
+### Tubulence Wall pluss
 
 ![image](https://user-images.githubusercontent.com/70406366/97065452-bcf4f000-1583-11eb-9fa5-abc870404094.png)
+
+
+
 
 
 # Verificação do fenômeno de Estol para o ângulo de ataque de 12 graus

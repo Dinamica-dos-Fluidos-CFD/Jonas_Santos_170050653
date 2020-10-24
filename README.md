@@ -309,9 +309,13 @@
 
 ![image](https://user-images.githubusercontent.com/70406366/97065217-8074c480-1582-11eb-8016-af6b422333f7.png)
 
+**Podemos perceber que com o aumento do ângulo de ataque houve,como esperado,uma mudança significativa entre as diferenças de pressão no intradorso quanto no extradorso.Vemos que a pressão na parte inferior do perfil é maior que na parte superior.**
+
 ### Velocidade
 
 ![image](https://user-images.githubusercontent.com/70406366/97065230-92566780-1582-11eb-8eb3-1d98990b12f5.png)
+
+**Nota-se com o aumento do ângulo de ataque as velocidades ao logo do perfil não estão mais contantes quanto guando estava posicionada em 0 graus.**
 
 ### Turbulence viscosity ratio
 
@@ -322,7 +326,7 @@
 ![image](https://user-images.githubusercontent.com/70406366/97065452-bcf4f000-1583-11eb-9fa5-abc870404094.png)
 
 # Conclusão
-**Pontanto ,de maneira geral,segundo os gráficos acima não está ocorendo o fenômeno de *stall* para o ángulo de ataque de 12 graus.A simulação apresentou resultados qualitativos para fazermos análises de cada parte,como também quantitativos.O comportamento apresentado nos gráficos de velocidade e pressão estão de acordo com a realidade do escoamento**
+**Pontanto ,de maneira geral,segundo os gráficos acima não está ocorendo o fenômeno de *stall* para o ángulo de ataque de 12 graus.A simulação apresentou resultados qualitativos,pois tivemos uma simulação gráfica aceitável tanto para velocidade quanto para pressão,condizentes com a realidade do escoamento.Como também quantitativos,pois tivemos erros para o calculo de cd e cl inferiores a 5%.**
 
 # Referências
 
@@ -343,3 +347,4 @@ https://www.youtube.com/watch?v=TAqhMwm4mLg&t=2615s&ab_channel=AnthonyT
 
 https://referenciabibliografica.net/a/pt-br/ref/abnt
 
+https://www.scielo.br/scielo.php?script=sci_arttext&pid=S0102-47442001000400009

@@ -184,7 +184,9 @@
 # TESTE 01 : Validação para o ângulo de ataque de 0 graus.
 
 ### Para o cd obtemos :
-![CD-grafico-1_angulo-0](https://user-images.githubusercontent.com/70406366/96936763-0ddde900-149d-11eb-8b8e-798a63cd93b4.png)
+![CD-grafico-1_angulo-0](https://user-images.githubusercontent.com/70406366/96936763-0ddde900-149d-11eb-8b8e-798a63cd93b4.png) 
+
+
 **Podemos observar um resultado satisfatório pois vemos o valor convergindo para um resultado mais preciso de cd.**
 
 ### Para o cl obtemos :
@@ -224,11 +226,15 @@
 ### Pressão
 
 ![image](https://user-images.githubusercontent.com/70406366/97062101-c96f4d80-156f-11eb-945d-b0ac3c6c4f43.png)
+
+
 **Podemos observar que o ponto de maior pressão se encontra no bordo de ataque ,enquanto no intradoso e extradoso posuem gradientes de pressão similares.**
 
 ### velocidade
 
 ![image](https://user-images.githubusercontent.com/70406366/97062139-f4f23800-156f-11eb-8097-b5f48f22f366.png)
+
+
 **Nota-se que os pontos de maior velocidade se encontram no intradoso e no extradoso do perfil.**
 
 ### Wall plus *vs* position

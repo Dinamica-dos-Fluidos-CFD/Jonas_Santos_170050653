@@ -93,7 +93,7 @@ Em relação a geometria ultilizamos 200 pontos para um bom detalhamento,em um p
 
 ## Avaliação da malha 
 
-O tipo de malha usada é do tipo não estruturada composta de elementos quadriláteros,o uso da malha não estruturada faz com que o código a ser programado seja mais complexo. Também impõe que se tenha que acessar a matriz de conectividade várias vezes, aumentando o número de operações na máquina em relação à malha estruturada.Com Volumes finitos
+O tipo de malha usada é do tipo não estruturada composta de elementos quadriláteros,o uso da malha não estruturada faz com que o código a ser programado seja mais complexo. Também impõe que se tenha que acessar a matriz de conectividade várias vezes, aumentando o número de operações na máquina em relação à malha estruturada.Com Volumes finitos.
 
 Avaliando a malha de perto (nas bordas do aerofólio ) o nosso Y+ tem um valor de  aproximadamente
 ![y+](https://user-images.githubusercontent.com/70406366/96887655-2decb880-145b-11eb-9b05-8e8b6d971e6d.gif)
@@ -102,7 +102,13 @@ Avaliando a malha de perto (nas bordas do aerofólio ) o nosso Y+ tem um valor d
 
 Dessa maneira concluimos que nossa malha está adequada para prosseguirmos na simulação.
 
+## Inputs
 
+![image](https://user-images.githubusercontent.com/70406366/96934894-69a67300-1499-11eb-8cc6-da5c1dfd8698.png)
+
+# capacidade computacional
+
+![image](https://user-images.githubusercontent.com/70406366/96936153-ed615f00-149b-11eb-9535-44f8c48843ff.png)
 
 ### Passo 1: Obteção do perfil NACA 0012
 

@@ -118,7 +118,7 @@ O interesse do trabalho é a obtenção dos coeficientes de ataque e de sustenta
 
 
 # Processamento 
-# TESTE 01 : Validação para o ângulo de ataque de 0 graus.
+## TESTE 01 : Validação para o ângulo de ataque de 0 graus.
 
 ### Para o cd obtemos :
 ![CD-grafico-1_angulo-0](https://user-images.githubusercontent.com/70406366/96936763-0ddde900-149d-11eb-8b8e-798a63cd93b4.png) 

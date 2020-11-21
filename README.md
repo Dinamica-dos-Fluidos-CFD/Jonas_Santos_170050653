@@ -62,12 +62,12 @@ Usaresmo como hipóteses :
 
 
 
-# Precisão
+## Precisão
 
 Teremos uma precisão mínima de arrasto e sutentação de 5%.
 
 
-# Prazos: 
+## Prazos: 
 O prazo de entrega para este trabalho será para o dia 04 de dezembro de 2020.Dessa forma segmentaremos as principais partes sendo :
 
 |Etapa do Projeto                            |Período   |
@@ -79,7 +79,7 @@ O prazo de entrega para este trabalho será para o dia 04 de dezembro de 2020.De
 
 
 
-# Opções além do CFD:
+## Opções além do CFD:
 
 Podemos ultilizar além do CFD uma simulação em um tunel de vento,cálculos númericos e tabelas no Exel.
 
@@ -105,7 +105,14 @@ Dessa maneira concluimos que nossa malha está adequada para prosseguirmos na si
 ## Inputs
 ![setups](https://user-images.githubusercontent.com/70406366/96935217-02d58980-149a-11eb-8a48-e1ba31d8a1d2.jpg)
 
-# capacidade computacional
+## Considerações
+O interesse do trabalho é a obtenção dos coeficientes de ataque e de sustentação para o ângulo de ataque de 12 graus.Dessa maneira assumiremos algumas considerações visando um bom requisito de solução.Tais como :
+* O escoamento em 2D;
+* Ocorre em regime permanete ;
+* O escoamento é turbulento (ultilizamos o modelo de Spalart-Allmaras baseado em deformação/vorticidade);
+* Ultilizaremos a inicialização hibrida com 5000 interações .
+
+## capacidade computacional
 
 ![image](https://user-images.githubusercontent.com/70406366/96936153-ed615f00-149b-11eb-9535-44f8c48843ff.png)
 

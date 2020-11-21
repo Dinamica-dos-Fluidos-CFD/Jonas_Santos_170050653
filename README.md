@@ -104,7 +104,7 @@ Dessa maneira concluimos que nossa malha está adequada para prosseguirmos na si
 
 ## Inputs
 
-![image](https://user-images.githubusercontent.com/70406366/96934894-69a67300-1499-11eb-8cc6-da5c1dfd8698.png)
+!![setups](https://user-images.githubusercontent.com/70406366/96935217-02d58980-149a-11eb-8a48-e1ba31d8a1d2.jpg)
 
 # capacidade computacional
 

@@ -84,6 +84,25 @@ O prazo de entrega para este trabalho será para o dia 04 de dezembro de 2020.De
 Podemos ultilizar além do CFD uma simulação em um tunel de vento,cálculos númericos e tabelas no Exel.
 
 
+# Pré-processamento
+
+## Domínio e geometria:
+Em relação a geometria ultilizamos 200 pontos para um bom detalhamento,em um perfil com 1 metro de corda.Precisamos ter um dominio de tal forma que não a vizinhança e os efeitos de borda não tenha muita influência na nossa simulação.Dessa forma ultilizaremos um domínio que seja 20 vezes o tamanho da corda na vertical, e 10 vezes o tamanho da corda na horizontal.
+
+![y+](https://user-images.githubusercontent.com/70406366/96887655-2decb880-145b-11eb-9b05-8e8b6d971e6d.gif)
+
+## Avaliação da malha 
+
+O tipo de malha usada é do tipo não estruturada composta de elementos quadriláteros,o uso da malha não estruturada faz com que o código a ser programado seja mais complexo. Também impõe que se tenha que acessar a matriz de conectividade várias vezes, aumentando o número de operações na máquina em relação à malha estruturada.Com Volumes finitos
+
+Avaliando a malha de perto (nas bordas do aerofólio ) o nosso Y+ tem um valor de  aproximadamente
+![y+](https://user-images.githubusercontent.com/70406366/96887655-2decb880-145b-11eb-9b05-8e8b6d971e6d.gif)
+![malha perto do aerofolio](https://user-images.githubusercontent.com/70406366/96934086-0405b700-1498-11eb-808e-e8f6fc0845f1.PNG)
+![image](https://user-images.githubusercontent.com/70406366/96936893-4e3d6700-149d-11eb-9460-4601acf3ab5f.png)
+
+Dessa maneira concluimos que nossa malha está adequada para prosseguirmos na simulação.
+
+
 
 ### Passo 1: Obteção do perfil NACA 0012
 

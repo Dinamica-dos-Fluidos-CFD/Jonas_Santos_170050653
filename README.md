@@ -23,10 +23,7 @@ Realizaremos uma análise bidimensional com o aerofólio da NACA0012 ultilizando
 ## Requisitos:
 
 O intuito desse projeto é obter um modelo de cálculo computacional que nos forneça:
- * valores de arrasto e de sustentação para o ângulo de ataque de 0 graus;
- * Comparar os valores obtidos com os encontrados no site https://turbmodels.larc.nasa.gov/naca0012_val.html para on ângulo de ataque de 0 graus;
- * Determinar os valores de cd e cl para o ângulo de ataque de 12 graus;
- * Comparar os valores obtidos com os encontrados no site https://turbmodels.larc.nasa.gov/naca0012_val.html para o ângulo de ataque de 12 graus;
+ * valores de arrasto e de sustentação para o ângulo de ataque de 12 graus;
  * Determinar se está ocorrendo o fenômeno de stall neste ângulo de ataque.
 
 ## Hipóteses 
@@ -43,10 +40,10 @@ Usaresmo como hipóteses :
  * Re = 6000000
 
 
-* densidade do ar  de 1,2754 kg/m3
+* Massa específica do ar  de 1,2754 kg/m3
 
 
- * escoamento incompreensível (Ma<0.3)
+ * Escoamento incompreensível (Ma<0.3)
 
 
 *  u=88.65m/s
@@ -64,7 +61,7 @@ Usaresmo como hipóteses :
 
 ## Precisão
 
-Teremos uma precisão mínima de arrasto e sutentação de 5%.
+Teremos uma precisão mínima de 5%.Dessa maneira trabalharemos com uma geometria de 200 pontos com um domínio de 20 vezes o tamanho da corda ,de 1 metro,na vertical e 10 vezes o tamanho da corda na horizontal.
 
 
 ## Prazos: 
@@ -81,7 +78,7 @@ O prazo de entrega para este trabalho será para o dia 04 de dezembro de 2020.De
 
 ## Opções além do CFD:
 
-Podemos ultilizar além do CFD uma simulação em um tunel de vento,cálculos númericos e tabelas no Exel.
+Podemos ultilizar além do CFD uma simulação em um tunel de vento,cálculos númericos e tabelas no Exel.A principal vantagem do CFD entre as demais está na facilidade da simulação visto que para realizar o mesmo estudo em túnel de vento seria nescessário um laboratorio adequado  
 
 
 

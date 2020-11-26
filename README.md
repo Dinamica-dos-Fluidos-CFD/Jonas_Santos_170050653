@@ -148,6 +148,26 @@ O erro obtido foi menor que o esperado validando assim o método. Assim o histó
 ### Tempo de resposta 
  Nessa simulação utilizamos como parâmetros de  5000 interações ,um reporting interval de 10 tempos e um profile update de 10 intervalos.Para esta simulação, cada iteração ocorreu em uma média de 0,600s, dessa forma ao total foram aproximadamente 3000s para a realização das 5000 iterações para cada caso.
 
+# Análise dos gráficos de contorno
+
+### Pressão
+
+![image](https://user-images.githubusercontent.com/70406366/97062101-c96f4d80-156f-11eb-945d-b0ac3c6c4f43.png)
+
+Podemos observar que o ponto de maior pressão se encontra no bordo de ataque, enquanto no intradorso e extradorso possuem gradientes de pressão similares.
+
+### velocidade
+
+![image](https://user-images.githubusercontent.com/70406366/97062139-f4f23800-156f-11eb-8097-b5f48f22f366.png)
+
+
+
+Nota-se que os pontos de maior velocidade se encontram no intradorso e no extradorso do perfil.
+
+
+### Wall plus *vs* position
+
+![image](https://user-images.githubusercontent.com/70406366/97062203-371b7980-1570-11eb-911e-497d41e36a2a.png)
 
 
 

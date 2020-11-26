@@ -99,8 +99,9 @@ O software  é inicializado de forma hibrida e a simulação é realizada com 50
 
 ![image](https://user-images.githubusercontent.com/70406366/96936153-ed615f00-149b-11eb-9535-44f8c48843ff.png)
 
+# Processamento e Pós-Processamento:
 
-# Abordagem 
+### Abordagem 
 Com o intuito de validarmos a metodologia utilizada iremos realizar um teste para o ângulo de ataque de 0 graus. Se os resultados forem menores ou iguais ao nosso critério de precisão prosseguiremos com a simulação para o ângulo de ataque de 12 graus. Caso contrário refaremos a modelagem.
 
 ### TESTE 01 : Validação para o ângulo de ataque de 0 graus.

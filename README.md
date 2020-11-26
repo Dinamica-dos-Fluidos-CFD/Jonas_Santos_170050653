@@ -83,6 +83,9 @@ Podemos empregar além do CFD uma simulação em um túnel de vento, cálculos n
 # Pré-Processamento:
 ### Domínio e geometria da malha 
 Utilizamos um domínio ao redor do aerofólio de 20 vezes o tamanho da corda na vertical e 10 vezes o tamanho da corda na horizontal com um perfil traçado a partir de 200 pontos. A fim de satisfazer nossa precisão requerida. Segmentaremos o domínio em 6 partes gerando uma malha hexaédrica a partir do modelo SpalartAllmaras ,ao redor do perfil (y+ menor do que 5) .Geraremos uma malha não estruturada composta de elementos quadriláteros com volumes finitos.
+
+![malha_1](https://user-images.githubusercontent.com/70406366/96933754-6c07cd80-1497-11eb-91ac-47b9c41f0d59.PNG)
+
 Para verificarmos se a malha esta adequada  Utilizaremos calculadora online para o Y+
 
 ![CodeCogsEqn](https://user-images.githubusercontent.com/70406366/96739589-53fc5500-1396-11eb-99d6-962d58b81128.gif)

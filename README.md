@@ -103,6 +103,8 @@ Podemos observar um resultado satisfatório pois vemos o valor convergindo para 
 Podemos observar um resultado satisfatório pois vemos o valor tentendo a zero.
 
 **Analisando os resultados de cd e cl :**
+
+
 ![image](https://user-images.githubusercontent.com/70406366/96937140-dfacd900-149d-11eb-8774-e524019273f1.png)
 
 No início do projeto estipulamos um erro aceitável de até 5%

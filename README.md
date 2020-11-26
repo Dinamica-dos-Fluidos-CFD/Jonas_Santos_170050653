@@ -146,12 +146,7 @@ Nota-se que os pontos de maior velocidade se encontram no intradoso e no extrado
 
 ### TESTE 2 : Análise para o ângulo de ataque de 12 graus
 
-Precisamos dos valores do seno e cosseno para o ataque de 12 graus. Depois, mudamos os Parâmetros de entrada nas condições de borda e o repositório de definições tanto do Drag quanto do lift.
-
-![image](https://user-images.githubusercontent.com/70406366/97063053-09d0ca80-1574-11eb-992a-9b5f82426cc7.png)
-![image](https://user-images.githubusercontent.com/70406366/97063134-59af9180-1574-11eb-8b73-5e2fa8eac134.png)
-
-Lembrando que no valor de X do lift colocamos o - sin(12), pois lift e drag são sempre relativos a movimentação do fluido. Sendo lift perpendicular ao drag enquanto o drag está na direção do movimento do fluido.
+Precisamos dos valores do seno e cosseno para o ataque de 12 graus. Depois, mudamos os Parâmetros de entrada nas condições de borda e o repositório de definições tanto do Drag quanto do lift.Lembrando que no valor de X do lift colocamos o - sin(12), pois lift e drag são sempre relativos a movimentação do fluido. Sendo lift perpendicular ao drag enquanto o drag está na direção do movimento do fluido.
 
 ### Avaliando os valores obtidos
 

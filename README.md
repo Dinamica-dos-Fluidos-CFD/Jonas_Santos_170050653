@@ -80,6 +80,23 @@ O prazo de entrega para este trabalho será para o dia 04 de dezembro de 2020.De
 
 Podemos empregar além do CFD uma simulação em um túnel de vento, cálculos numéricos e tabelas no Excel. A principal vantagem do CFD entre as demais está na facilidade da simulação visto que para realizar o mesmo estudo, como por exemplo, testes em túnel de vento de modelos reduzidos geralmente envolvem a forte interação entre a estrutura do modelo e o escoamento. O significado imediato desta é que não apenas a estrutura deve ser corretamente modelada, mas também o escoamento, suas características próprias de acordo com o ambiente no qual será utilizada.
 
+# Pré-Processamento:
+
+### Domínio e geometria da malha 
+
+Utilizamos um domínio ao redor do aerofólio de 20 vezes o tamanho da corda na vertical e 10 vezes o tamanho da corda na horizontal com um perfil traçado a partir de 200 pontos. A fim de satisfazer nossa precisão requerida. Segmentaremos o domínio em 6 partes gerando uma malha hexaédrica a partir do modelo SpalartAllmaras ,ao redor do perfil (y+ menor do que 5) .Geraremos uma malha não estruturada composta de elementos quadriláteros com volumes finitos.
+![malha_1](https://user-images.githubusercontent.com/70406366/96933754-6c07cd80-1497-11eb-91ac-47b9c41f0d59.PNG)
+
+
+### Inputs
+
+![setups](https://user-images.githubusercontent.com/70406366/96935217-02d58980-149a-11eb-8a48-e1ba31d8a1d2.jpg)
+
+### Capacidade computacional
+
+![image](https://user-images.githubusercontent.com/70406366/96936153-ed615f00-149b-11eb-9535-44f8c48843ff.png)
+
+
 # Abordagem 
 Com o intuito de validarmos a metodologia utilizada iremos realizar um teste para o ângulo de ataque de 0 graus. Se os resultados forem menores ou iguais ao nosso critério de precisão prosseguiremos com a simulação para o ângulo de ataque de 12 graus. Caso contrário refaremos a modelagem.
 

@@ -146,7 +146,7 @@ Enquanto isso para cl segundo o site https://turbmodels.larc.nasa.gov/naca0012_v
 O erro obtido foi menor que o esperado validando assim o método. Assim o histórico de convergência do cálculo está adequado.
 
 ### Tempo de resposta 
- Nessa simulação utilizamos como parâmetros de  5000 interações ,um reporting interval de 10 tempos e um profile update de 10 intervalos
+ Nessa simulação utilizamos como parâmetros de  5000 interações ,um reporting interval de 10 tempos e um profile update de 10 intervalos.Para esta simulação, cada iteração ocorreu em uma média de 0,600s, dessa forma ao total foram aproximadamente 3000s para a realização das 5000 iterações para cada caso.
 
 
 # Análise dos gráficos de contorno

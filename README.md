@@ -96,8 +96,11 @@ Podemos observar um resultado satisfatório pois vemos o valor convergindo para 
 Podemos observar um resultado satisfatório pois vemos o valor convergindo para um resultado mais preciso de cl.
 
 **Em relação aos residuais obtemos :**
+
+
 ![Residuais_grafico-1_angulo-0_](https://user-images.githubusercontent.com/70406366/96936765-0f0f1600-149d-11eb-8c59-7857c2a815cf.png)
-**Podemos observar um resultado satisfatório pois vemos o valor tentendo a zero.**
+
+Podemos observar um resultado satisfatório pois vemos o valor tentendo a zero.
 
 **Analisando os resultados de cd e cl :**
 ![image](https://user-images.githubusercontent.com/70406366/96937140-dfacd900-149d-11eb-8774-e524019273f1.png)

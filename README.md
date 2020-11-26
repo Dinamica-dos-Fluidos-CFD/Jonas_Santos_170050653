@@ -100,7 +100,7 @@ Podemos observar um resultado satisfatório pois vemos o valor convergindo para 
 
 ![Residuais_grafico-1_angulo-0_](https://user-images.githubusercontent.com/70406366/96936765-0f0f1600-149d-11eb-8c59-7857c2a815cf.png)
 
-Podemos observar um resultado satisfatório pois vemos o valor tentendo a zero.
+Podemos observar um resultado satisfatório pois vemos o valor tendendo a zero.
 
 **Analisando os resultados de cd e cl :**
 
@@ -120,12 +120,12 @@ Substituindo os valores
 
 ![image](https://user-images.githubusercontent.com/70406366/96937563-c8bab680-149e-11eb-95e4-00db29895dcb.png)
 
-Enquanto isso para cl segundo o site https://turbmodels.larc.nasa.gov/naca0012_val.html possue valor de aproximadamente zero enquanto na nossa simulação optemos um valor muito pequeno sendo próximo de zero (cl = 1.470869e-06)
+Enquanto isso para cl segundo o site https://turbmodels.larc.nasa.gov/naca0012_val.html possuem valor de aproximadamente zero enquanto na nossa simulação optemos um valor muito pequeno sendo próximo de zero (cl = 1.470869e-06)
 
-O erro obtido foi menor que o esperado validando assim o método.Assim o histórico de convergência do cálculo está adequado
+O erro obtido foi menor que o esperado validando assim o método. Assim o histórico de convergência do cálculo está adequado.
 
 ### Tempo de resposta 
- Nessa simulação ultilizamos como parametros 5000 interações ,um reporting interval de 10 tempos e um profile update de 10 intervalos.
+ Nessa simulação utilizamos como parâmetros de  5000 interações ,um reporting interval de 10 tempos e um profile update de 10 intervalos
 
 
 # Análise dos gráficos de contorno
@@ -134,15 +134,16 @@ O erro obtido foi menor que o esperado validando assim o método.Assim o histór
 
 ![image](https://user-images.githubusercontent.com/70406366/97062101-c96f4d80-156f-11eb-945d-b0ac3c6c4f43.png)
 
-
-Podemos observar que o ponto de maior pressão se encontra no bordo de ataque ,enquanto no intradoso e extradoso posuem gradientes de pressão similares.
+Podemos observar que o ponto de maior pressão se encontra no bordo de ataque, enquanto no intradorso e extradorso possuem gradientes de pressão similares.
 
 ### velocidade
 
 ![image](https://user-images.githubusercontent.com/70406366/97062139-f4f23800-156f-11eb-8097-b5f48f22f366.png)
 
 
-Nota-se que os pontos de maior velocidade se encontram no intradoso e no extradoso do perfil.
+
+Nota-se que os pontos de maior velocidade se encontram no intradorso e no extradorso do perfil.
+
 
 ### Wall plus *vs* position
 
@@ -151,34 +152,34 @@ Nota-se que os pontos de maior velocidade se encontram no intradoso e no extrado
 
 ### TESTE 2 : Análise para o ângulo de ataque de 12 graus
 
-Precisamos dos valores do seno e cosseno para o ataque de 12 graus. Depois, mudamos os Parâmetros de entrada nas condições de borda e o repositório de definições tanto do Drag quanto do lift.Lembrando que no valor de X do lift colocamos o - sin(12), pois lift e drag são sempre relativos a movimentação do fluido. Sendo lift perpendicular ao drag enquanto o drag está na direção do movimento do fluido.
+Precisamos dos valores do seno e cosseno para o ataque de 12 graus. Depois, mudamos os Parâmetros de entrada nas condições de borda e o repositório de definições tanto do Drag quanto do lift. Lembrando que no valor de X do lift colocamos o - sin(12), pois lift e drag são sempre relativos a movimentação do fluido. Sendo lift perpendicular ao drag enquanto o drag está na direção do movimento do fluido.
 
 ### Avaliando os valores obtidos
 
-**A pertir dessa simulação obtemos para os valores residuais:**
+**A partir dessa simulação obtemos para os valores residuais:**
 
 ![image](https://user-images.githubusercontent.com/70406366/97064648-da26c000-157d-11eb-8934-7542d0799ec4.png)
 
-**Podemos observar um resultado satisfatório pois vemos os valores dos residuais tentendo a valores próximos de zero.**
+Podemos observar um resultado satisfatório pois vemos os valores dos residuais tentando a valores próximos de zero.
 
 
 **Para os valores de cl:**
 
 ![image](https://user-images.githubusercontent.com/70406366/97064680-13f7c680-157e-11eb-87de-84fe9d804d92.png)
 
-**Podemos observar um resultado satisfatório pois vemos o valor convergindo para um resultado mais preciso de cl.**
+Podemos observar um resultado satisfatório pois vemos o valor convergindo para um resultado mais preciso de cl.
 
 **Para os valores de cd:**
 
 ![image](https://user-images.githubusercontent.com/70406366/97064688-2bcf4a80-157e-11eb-8920-ae0258cff523.png)
 
-**Podemos observar um resultado satisfatório pois vemos o valor convergindo para um resultado mais preciso de cd.**
+Podemos observar um resultado satisfatório pois vemos o valor convergindo para um resultado mais preciso de cd.
 
 ### Comparando os valores e calculando o erro:
 
 ![image](https://user-images.githubusercontent.com/70406366/97064634-b6637a00-157d-11eb-98cd-6c72a05e6022.png)
 
-**Ultilizando como referência os valores tabelados no site https://turbmodels.larc.nasa.gov/NACA0012_validation/CLCD_Ladson_expdata.dat .Obtemos :**
+Utilizando como referência os valores tabelados no site https://turbmodels.larc.nasa.gov/NACA0012_validation/CLCD_Ladson_expdata.dat .Obtemos :
 
 ![image](https://user-images.githubusercontent.com/70406366/97063444-2ec63d00-1576-11eb-8104-8f1a56428b7a.png) 
 
@@ -200,13 +201,13 @@ Precisamos dos valores do seno e cosseno para o ataque de 12 graus. Depois, muda
 
 ![image](https://user-images.githubusercontent.com/70406366/97065217-8074c480-1582-11eb-8016-af6b422333f7.png)
 
-**Podemos perceber que com o aumento do ângulo de ataque houve,como esperado,uma mudança significativa entre as diferenças de pressão no intradorso quanto no extradorso.Vemos que a pressão na parte inferior do perfil é maior que na parte superior.**
+Podemos perceber que com o aumento do ângulo de ataque houve, como esperado, uma mudança significativa entre as diferenças de pressão no intradorso quanto no extradorso. Vemos que a pressão na parte inferior do perfil é maior que na parte superior.
 
 ### Velocidade
 
 ![image](https://user-images.githubusercontent.com/70406366/97065230-92566780-1582-11eb-8eb3-1d98990b12f5.png)
 
-**Nota-se com o aumento do ângulo de ataque as velocidades ao logo do perfil não estão mais contantes quanto guando estava posicionada em 0 graus.**
+Nota-se com o aumento do ângulo de ataque as velocidades ao logo do perfil não estão mais constantes quanto guando estava posicionada em 0 graus.
 
 ### Turbulence viscosity ratio
 
@@ -217,7 +218,7 @@ Precisamos dos valores do seno e cosseno para o ataque de 12 graus. Depois, muda
 ![image](https://user-images.githubusercontent.com/70406366/97065452-bcf4f000-1583-11eb-9fa5-abc870404094.png)
 
 # Conclusão
-Pontanto ,de maneira geral,segundo os gráficos acima não está ocorendo o fenômeno de *stall* para o ángulo de ataque de 12 graus.A simulação apresentou resultados qualitativos,pois tivemos uma simulação gráfica aceitável tanto para velocidade quanto para pressão,condizentes com a realidade do escoamento.Como também quantitativos,pois tivemos erros para o calculo de cd e cl inferiores a 5%.
+Portanto, de maneira geral, segundo os gráficos acima não está ocorrendo o fenômeno de *stall* para o ângulo de ataque de 12 graus. A simulação apresentou resultados qualitativos, pois tivemos uma simulação gráfica aceitável tanto para velocidade quanto para pressão, condizentes com a realidade do escoamento. Como também quantitativos, pois tivemos erros para o cálculo de cd e cl inferiores a 5%.
 
 # Referências
 

@@ -18,7 +18,7 @@
 # Modelagem
 
 ## Objetivo e finalidade:
-Realizaremos uma análise bidimensional com o aerofólio da NACA0012 ultilizando como recurso o ANSYS Fluent Software.Determinaremos o Cl e o CD  para o âgulo de ataque de 0º graus para validação  do método ultilizado , além de obter os gráficos de pressão , velocidade e turbulência ao redor das bordas do aerofólio.Com a a finalidade de ser um estudo académico determinaremos  um valor de coeficiente de arrasto e sustentação para o aerofólio NACA 0012 para o ângulo de ataque de 12 graus.Ademais procuraremos determinar se está ocorrendo o fenômeno de *stall* neste ângulo de ataque.
+Realizaremos uma análise bidimensional com o aerofólio da NACA0012 utilizando como recurso o ANSYS Fluent Software. Determinaremos o Cl e o CD  para o ângulo de ataque de 0º graus para validação  do método utilizado , além de obter os gráficos de pressão , velocidade e turbulência ao redor das bordas do aerofólio.Com a a finalidade de ser um estudo académico determinaremos  um valor de coeficiente de arrasto e sustentação para o aerofólio NACA 0012 para o ângulo de ataque de 12 graus. Ademais procuraremos determinar se está ocorrendo o fenômeno de *stall* neste ângulo de ataque.
 
 ## Requisitos:
 
@@ -28,7 +28,7 @@ O intuito desse projeto é obter um modelo de cálculo computacional que nos for
 
 ## Hipóteses 
 
-Usaresmo como hipóteses :
+Usaremos como hipóteses :
  * que o escoamento seja 2D;
  * turbulento;
  * isotérmico
@@ -61,7 +61,7 @@ Usaresmo como hipóteses :
 
 ## Precisão
 
-Teremos uma precisão mínima de 5%.Dessa maneira trabalharemos com uma geometria de 200 pontos com um domínio de 20 vezes o tamanho da corda ,de 1 metro,na vertical e 10 vezes o tamanho da corda na horizontal.
+Teremos uma precisão mínima de 5%.Dessa maneira trabalharemos com uma geometria de 200 pontos com um domínio de 20 vezes o tamanho da corda ,de 1 metro, na vertical e 10 vezes o tamanho da corda na horizontal.
 
 
 ## Prazos: 
@@ -78,7 +78,8 @@ O prazo de entrega para este trabalho será para o dia 04 de dezembro de 2020.De
 
 ## Opções além do CFD:
 
-Podemos ultilizar além do CFD uma simulação em um tunel de vento,cálculos númericos e tabelas no Exel.A principal vantagem do CFD entre as demais está na facilidade da simulação visto que para realizar o mesmo estudo em túnel de vento seria nescessário um laboratorio adequado  
+Podemos empregar além do CFD uma simulação em um túnel de vento, cálculos numéricos e tabelas no Excel. A principal vantagem do CFD entre as demais está na facilidade da simulação visto que para realizar o mesmo estudo, como por exemplo, testes em túnel de vento de modelos reduzidos geralmente envolvem a forte interação entre a estrutura do modelo e o escoamento. O significado imediato desta é que não apenas a estrutura deve ser corretamente modelada, mas também o escoamento, suas características próprias de acordo com o ambiente no qual será utilizada.
+
 
 
 

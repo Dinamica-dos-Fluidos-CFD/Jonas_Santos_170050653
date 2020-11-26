@@ -104,7 +104,7 @@ O software  é inicializado de forma hibrida e a simulação é realizada com 50
 ### Abordagem 
 Com o intuito de validarmos a metodologia utilizada iremos realizar um teste para o ângulo de ataque de 0 graus. Se os resultados forem menores ou iguais ao nosso critério de precisão prosseguiremos com a simulação para o ângulo de ataque de 12 graus. Caso contrário refaremos a modelagem.
 
-### TESTE 01 : Validação para o ângulo de ataque de 0 graus.
+### Validação para o ângulo de ataque de 0 graus.
 
 **Para o cd obtemos :**
 ![CD-grafico-1_angulo-0](https://user-images.githubusercontent.com/70406366/96936763-0ddde900-149d-11eb-8b8e-798a63cd93b4.png) 
@@ -171,7 +171,7 @@ Nota-se que os pontos de maior velocidade se encontram no intradorso e no extrad
 ![image](https://user-images.githubusercontent.com/70406366/97062203-371b7980-1570-11eb-911e-497d41e36a2a.png)
 
 
-### TESTE 2 : Análise para o ângulo de ataque de 12 graus
+### Análise para o ângulo de ataque de 12 graus
 
 Precisamos dos valores do seno e cosseno para o ataque de 12 graus. Depois, mudamos os Parâmetros de entrada nas condições de borda e o repositório de definições tanto do Drag quanto do lift. Lembrando que no valor de X do lift colocamos o - sin(12), pois lift e drag são sempre relativos a movimentação do fluido. Sendo lift perpendicular ao drag enquanto o drag está na direção do movimento do fluido.
 

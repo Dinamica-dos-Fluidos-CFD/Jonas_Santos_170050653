@@ -18,7 +18,7 @@
 # Modelagem
 
 ## Objetivo e finalidade:
-Realizam uma análise bidimensional com o aerofólio da NACA0012 utilizam como recurso o ANSYS Fluent Software. Determinarão o Cl e o CD  para o ângulo de ataque de 0º graus para validação  do método utilizado , adquirirão os gráficos de pressão , velocidade e turbulência ao redor das bordas do aerofólio.Com a finalidade de ser um estudo académico que  determina um valor de coeficiente de arrasto e sustentação para o aerofólio NACA 0012 para o ângulo de ataque de 12 graus. Assim ,aferirão  se está ocorrendo o fenômeno de *stall* neste ângulo de ataque.
+Realizam uma análise bidimensional com o aerofólio da NACA0012 utilizando como recurso o ANSYS Fluent Software. Com o intuito da determinação do cl e o cd para o ângulo de ataque de 0º graus a fim de  validar o método utilizado , adquirirão os gráficos de pressão , velocidade e turbulência ao redor das bordas do aerofólio.Com a finalidade de ser um estudo académico que determina um valor de coeficiente de arrasto e sustentação para o aerofólio NACA 0012 para o ângulo de ataque de 12 graus. Assim, ponderarão se ,por sua vez, está ocorrendo o fenômeno de stall neste ângulo de ataque.
 
 ## Requisitos:
 

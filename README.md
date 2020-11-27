@@ -32,7 +32,7 @@ O intuito desse projeto é obter um modelo de cálculo computacional que nos for
   
   ### 1.4 Hipótese de Simplificações 
   Com o intuito de simplificar a modelagem do problema, facilitar as definições das condições de contorno, serão adotadas as seguintes hipóteses: 
-Usarão como hipóteses:
+
  * Que o escoamento seja 2D;
  * Que o escoamento seja turbulento;
  * Isotérmico

@@ -65,11 +65,16 @@ O intuito desse projeto é obter um modelo de cálculo computacional que nos for
 Como as simulações em CFD é influenciada pela precisão dos resultados. A fim de obter resultados que convergem a uma margem aceitável determina-se um domínio ‘D’ de tal forma que seja 20 vezes o tamanho da corda a partir de um perfil do aerofólio com 200 pontos. Dessa forma estabelece como precisão mínima de 5%.
 
 
-
-![image](https://user-images.githubusercontent.com/70406366/100468027-50a16b00-30b2-11eb-9fd3-6be6d7592258.png) Domínio D
-
-![image](https://user-images.githubusercontent.com/70406366/100468166-a2e28c00-30b2-11eb-90d7-ccc0395c2284.png) Perfil do aerofólio com 200 ponto 
-  
+<p align="center">
+![image](https://user-images.githubusercontent.com/70406366/100468027-50a16b00-30b2-11eb-9fd3-6be6d7592258.png)
+ </p>
+<p align="center"> Figura 1: Domínio D <br/>
+       
+<p align="center">
+![image](https://user-images.githubusercontent.com/70406366/100468166-a2e28c00-30b2-11eb-90d7-ccc0395c2284.png)
+  </p>
+<p align="center"> Figura 2: Perfil do aerofólio com 200 ponto <br/>
+     
   ### 1.6 Metodologia
   A melhor metodologia a ser aplicada nesse caso é o estudo CFD pois tem como principal vantagem a facilidade da simulação visto que para realizar o mesmo estudo, como por exemplo, testes em túnel de vento de modelos reduzidos geralmente envolvem a forte interação entre a estrutura do modelo e o escoamento. O significado imediato desta é que não apenas a estrutura deve ser corretamente modelada, mas também o escoamento, suas características próprias de acordo com o ambiente no qual será utilizada. 
   

@@ -15,19 +15,23 @@
   
   
   
-# Modelagem
+## 1. Modelagem
 
-## Objetivo e finalidade:
-Realizam uma análise bidimensional com o aerofólio da NACA0012 utilizando como recurso o ANSYS Fluent Software. Com o intuito da determinação do cl e o cd para o ângulo de ataque de 0º graus a fim de  validar o método utilizado , adquirirão os gráficos de pressão , velocidade e turbulência ao redor das bordas do aerofólio.Com a finalidade de ser um estudo académico que determina um valor de coeficiente de arrasto e sustentação para o aerofólio NACA 0012 para o ângulo de ataque de 12 graus. Assim, ponderarão se ,por sua vez, está ocorrendo o fenômeno de stall neste ângulo de ataque.
+### 1.1 Objetivo
+O objetivo é a análise bidimensional do escoamento ao redor do aerofólio da NACA0012 utilizando como recurso o ANSYS Fluent Software. Utilizando como referência o repositório da Nasa. Tal análise permitirá avaliar parâmetros do escoamento como: de pressão, velocidade e turbulência ao redor das bordas do aerofólio a fim de determinar se estar ocorrendo o fenômeno de stall para o ângulo de ataque de 12 graus.
 
-## Requisitos:
-
+   
+  ### 1.2 Requisitos de Solução
 O intuito desse projeto é obter um modelo de cálculo computacional que nos forneça:
  * Valores de arrasto e de sustentação para o ângulo de ataque de 12 graus;
  * Determinar se está ocorrendo o fenômeno de stall neste ângulo de ataque.
 
-## Hipóteses 
-
+  
+  ### 1.3 Finalidade do Projeto
+  O projeto possui finalidade acadêmica com o intuito de trabalhar habilidades requeridas para realizar um estudo paramétrico de simulação em Dinâmica dos Fluidos Computacional (CFD). Requerido tanto no meio acadêmico quanto na indústria.
+  
+  ### 1.4 Hipótese de Simplificações 
+  Com o intuito de simplificar a modelagem do problema, facilitar as definições das condições de contorno, serão adotadas as seguintes hipóteses: 
 Usarão como hipóteses:
  * Que o escoamento seja 2D;
  * Que o escoamento seja turbulento;
@@ -52,20 +56,24 @@ Usarão como hipóteses:
 * Ma = 0.258
 
 
-* Em relação ao Y+ Utilizaremos calculadora online
+* Em relação ao Y+ Utilizam calculadora online
 
-![CodeCogsEqn](https://user-images.githubusercontent.com/70406366/96739589-53fc5500-1396-11eb-99d6-962d58b81128.gif)
+![CodeCogsEqn](https://user-images.githubusercontent.com/70406366/96739589-53fc5500-1396-11eb-99d6-962d58b81128.gif) 
 
+  
+  ### 1.5 Precisão dos Resultados 
+Como as simulações em CFD é influenciada pela precisão dos resultados. A fim de obter resultados que convergem a uma margem aceitável determina-se um domínio ‘D’ de tal forma que seja 20 vezes o tamanho da corda a partir de um perfil do aerofólio com 200 pontos. Dessa forma estabelece como precisão mínima de 5%.
+Domínio D
+![image](https://user-images.githubusercontent.com/70406366/100468027-50a16b00-30b2-11eb-9fd3-6be6d7592258.png)
+Perfil do aerofólio com 200 ponto 
+![image](https://user-images.githubusercontent.com/70406366/100468166-a2e28c00-30b2-11eb-90d7-ccc0395c2284.png)
+  
+  ### 1.6 Metodologia
+  A melhor metodologia a ser aplicada nesse caso é o estudo CFD pois posse como principal vantagem a facilidade da simulação visto que para realizar o mesmo estudo, como por exemplo, testes em túnel de vento de modelos reduzidos geralmente envolvem a forte interação entre a estrutura do modelo e o escoamento. O significado imediato desta é que não apenas a estrutura deve ser corretamente modelada, mas também o escoamento, suas características próprias de acordo com o ambiente no qual será utilizada. 
+  
+  ### 1.7 Prazo de Entrega
+   O projeto é dividido em três etapas, sendo elas: Modelagem; Pré-Processamento e Processamento. O prazo de entrega para este trabalho será para o dia 04 de dezembro de 2020.Dessa forma a segmentação das principais partes sendo:
 
-
-
-## Precisão
-
-Terão como  precisão mínima de 5%.Dessa maneira trabalharão com uma geometria de 200 pontos com um domínio de 20 vezes o tamanho da corda ,de 1 metro, na vertical e 10 vezes o tamanho da corda na horizontal.
-
-
-## Prazos: 
-O prazo de entrega para este trabalho será para o dia 04 de dezembro de 2020.Dessa forma segmentarão as principais partes sendo :
 
 |Etapa do Projeto                            |Período   |
 |--------------------------------------------|----------|
@@ -73,11 +81,4 @@ O prazo de entrega para este trabalho será para o dia 04 de dezembro de 2020.De
 |2ª Etapa: Pré-Processamento                 |20 dias   |
 |3ª Etapa: Processamento e Pós-Processamento |45 dias   |
 |4ª Etapa: revisão                           |05 dias   |
-
-
-
-## Opções além do CFD:
-
-Poderiam  empregar além do CFD uma simulação em um túnel de vento, cálculos numéricos e tabelas no Excel. A principal vantagem do CFD entre as demais está na facilidade da simulação visto que para realizar o mesmo estudo, como por exemplo, testes em túnel de vento de modelos reduzidos geralmente envolvem a forte interação entre a estrutura do modelo e o escoamento. O significado imediato desta é que não apenas a estrutura deve ser corretamente modelada, mas também o escoamento, suas características próprias de acordo com o ambiente no qual será utilizada.
-
-
+    

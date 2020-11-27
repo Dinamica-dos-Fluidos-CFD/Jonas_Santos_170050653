@@ -24,7 +24,7 @@ O objetivo é a análise bidimensional do escoamento ao redor do aerofólio da N
   ### 1.2 Requisitos de Solução
 O intuito desse projeto é obter um modelo de cálculo computacional que nos forneça:
  * Valores de arrasto e de sustentação para o ângulo de ataque de 12 graus;
- * Determinar se está ocorrendo o fenômeno de stall neste ângulo de ataque.
+ * Obter informações acerca do stall deste ângulo de ataque.
 
   
   ### 1.3 Finalidade do Projeto
@@ -36,35 +36,13 @@ O intuito desse projeto é obter um modelo de cálculo computacional que nos for
  * Que o escoamento seja 2D;
  * Que o escoamento seja turbulento;
  * Isotérmico
- * Número de Reynolds
- 
- 
-![CodeCogsEqn](https://user-images.githubusercontent.com/70406366/96741737-873fe380-1398-11eb-9d46-aafaa55f6ffe.gif)
-                                                                  
- * Re = 6000000
 
-
-* Massa específica do ar  de 1,2754 kg/m3
-
-
- * Escoamento incompreensível (Ma<0.3)
-
-
-*  u=88.65m/s
-
-
-* Ma = 0.258
-
-
-* Em relação ao Y+ Utilizar calculadora online
-
-![CodeCogsEqn](https://user-images.githubusercontent.com/70406366/96739589-53fc5500-1396-11eb-99d6-962d58b81128.gif) 
 
   
   ### 1.5 Precisão dos Resultados 
 Como as simulações em CFD é influenciada pela precisão dos resultados. A fim de obter resultados que convergem a uma margem aceitável determina-se um domínio ‘D’ de tal forma que seja 20 vezes o tamanho da corda a partir de um perfil do aerofólio com 200 pontos. Dessa forma estabelece como precisão mínima de 5%.
 
-
+### 1.6 Geometria do Problema
 
 ![image](https://user-images.githubusercontent.com/70406366/100468027-50a16b00-30b2-11eb-9fd3-6be6d7592258.png)
 
@@ -75,10 +53,11 @@ Como as simulações em CFD é influenciada pela precisão dos resultados. A fim
 
 <p align="center"> Figura 2: Perfil do aerofólio com 200 ponto <br/>
      
-  ### 1.6 Metodologia
-  A melhor metodologia a ser aplicada nesse caso é o estudo CFD pois tem como principal vantagem a facilidade da simulação visto que para realizar o mesmo estudo, como por exemplo, testes em túnel de vento de modelos reduzidos geralmente envolvem a forte interação entre a estrutura do modelo e o escoamento. O significado imediato desta é que não apenas a estrutura deve ser corretamente modelada, mas também o escoamento, suas características próprias de acordo com o ambiente no qual será utilizada. 
+  ### 1.7 Metodologia
+     A melhor metodologia a ser aplicada nesse caso é o estudo CFD pois tem como principal vantagem a facilidade da simulação visto que para realizar o mesmo estudo, como por exemplo, em túnel de vento normalmente envolvem a forte interação entre a estrutura do modelo e o escoamento. O que significa que não apenas a estrutura deve ser corretamente modelada, mas também o escoamento além de suas características especificas de acordo com o ambiente no qual será utilizada. Uma modelagem correta em túnel de vento resulta que os parâmetros adimensionais de semelhança sejam exatamente os mesmos na estrutura real e no modelo. Entretanto a duplicação completa desses parâmetros é impraticável ou na maioria das vezes impossível.
+
   
-  ### 1.7 Prazo de Entrega
+  ### 1.8 Prazo de Entrega
    O projeto é dividido em três etapas, sendo elas: Modelagem; Pré-Processamento e Processamento. O prazo de entrega para este trabalho será para o dia 04 de dezembro de 2020.Dessa forma a segmentação das principais partes sendo:
 
 

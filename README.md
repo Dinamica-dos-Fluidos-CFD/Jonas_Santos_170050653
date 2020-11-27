@@ -54,7 +54,7 @@ Como as simulações em CFD é influenciada pela precisão dos resultados. A fim
 <p align="center"> Figura 2: Perfil do aerofólio com 200 ponto <br/>
      
   ### 1.7 Metodologia
-     A melhor metodologia a ser aplicada nesse caso é o estudo CFD pois tem como principal vantagem a facilidade da simulação visto que para realizar o mesmo estudo, como por exemplo, em túnel de vento normalmente envolvem a forte interação entre a estrutura do modelo e o escoamento. O que significa que não apenas a estrutura deve ser corretamente modelada, mas também o escoamento além de suas características especificas de acordo com o ambiente no qual será utilizada. Uma modelagem correta em túnel de vento resulta que os parâmetros adimensionais de semelhança sejam exatamente os mesmos na estrutura real e no modelo. Entretanto a duplicação completa desses parâmetros é impraticável ou na maioria das vezes impossível.
+   A melhor metodologia a ser aplicada nesse caso é o estudo CFD pois tem como principal vantagem a facilidade da simulação visto que para realizar o mesmo estudo, como por exemplo, em túnel de vento normalmente envolvem a forte interação entre a estrutura do modelo e o escoamento. O que significa que não apenas a estrutura deve ser corretamente modelada, mas também o escoamento além de suas características especificas de acordo com o ambiente no qual será utilizada. Uma modelagem correta em túnel de vento resulta que os parâmetros adimensionais de semelhança sejam exatamente os mesmos na estrutura real e no modelo. Entretanto a duplicação completa desses parâmetros é impraticável ou na maioria das vezes impossível.
 
   
   ### 1.8 Prazo de Entrega

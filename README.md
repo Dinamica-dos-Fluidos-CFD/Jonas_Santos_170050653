@@ -56,7 +56,7 @@ O intuito desse projeto é obter um modelo de cálculo computacional que nos for
 * Ma = 0.258
 
 
-* Em relação ao Y+ Utilizam calculadora online
+* Em relação ao Y+ Utilizar calculadora online
 
 ![CodeCogsEqn](https://user-images.githubusercontent.com/70406366/96739589-53fc5500-1396-11eb-99d6-962d58b81128.gif) 
 

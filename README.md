@@ -23,16 +23,16 @@ Realizam uma análise bidimensional com o aerofólio da NACA0012 utilizando como
 ## Requisitos:
 
 O intuito desse projeto é obter um modelo de cálculo computacional que nos forneça:
- * valores de arrasto e de sustentação para o ângulo de ataque de 12 graus;
+ * Valores de arrasto e de sustentação para o ângulo de ataque de 12 graus;
  * Determinar se está ocorrendo o fenômeno de stall neste ângulo de ataque.
 
 ## Hipóteses 
 
 Usarão como hipóteses:
- * que o escoamento seja 2D;
- * turbulento;
- * isotérmico
- * número de Reynolds
+ * Que o escoamento seja 2D;
+ * Que o escoamento seja turbulento;
+ * Isotérmico
+ * Número de Reynolds
  
  
 ![CodeCogsEqn](https://user-images.githubusercontent.com/70406366/96741737-873fe380-1398-11eb-9d46-aafaa55f6ffe.gif)

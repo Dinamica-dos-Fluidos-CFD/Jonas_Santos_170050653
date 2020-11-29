@@ -68,3 +68,39 @@ Como as simulações em CFD é influenciada pela precisão dos resultados. A fim
 |3ª Etapa: Processamento e Pós-Processamento |45 dias   |
 |4ª Etapa: revisão                           |05 dias   |
     
+## 2. Pré-Processamento
+
+### 2.1 Domínio e Geometria
+O domínio, nesse projeto, é uma região na qual será realizado os cálculos numéricos que por sua vez é ponderado por uma malha que retrata pequenos volumes de controle. O domínio ao redor do aerofólio é de 20 vezes o tamanho da corda na vertical e 10 na horizontal, com um perfil traçado a partir de 200 pontos. A fim de satisfazer a precisão requerida. 
+
+![malha_1](https://user-images.githubusercontent.com/70406366/96933754-6c07cd80-1497-11eb-91ac-47b9c41f0d59.PNG)
+### 2.2 Malha
+A malha foi obtida a partir da segmentação do domínio em 6 partes gerando uma malha hexaédrica a partir do modelo SpalartAllmaras, ao redor do perfil (y+ menor do que 5). Sendo essa uma malha não estruturada composta de elementos quadriláteros com volumes finitos. Na condição da malha está adequada utilizam um software de calculadora online para o Y+.
+![CodeCogsEqn](https://user-images.githubusercontent.com/70406366/96739589-53fc5500-1396-11eb-99d6-962d58b81128.gif)
+Analisando a malha mais de perto para verificar se obedece a condição estipulada para Y+.
+
+![image](https://user-images.githubusercontent.com/70406366/96936893-4e3d6700-149d-11eb-9460-4601acf3ab5f.png)
+
+### 2.3 Inputs 
+* número de Reynolds
+![CodeCogsEqn](https://user-images.githubusercontent.com/70406366/96741737-873fe380-1398-11eb-9d46-aafaa55f6ffe.gif)
+                                                                  
+ * Re = 6000000
+
+
+* Massa específica do ar  de 1,2754 kg/m3
+
+
+ * Escoamento incompreensível (Ma<0.3)
+
+
+*  u=88.65m/s
+
+
+* Ma = 0.258
+
+
+
+### Recursos Computacionais
+![image](https://user-images.githubusercontent.com/70406366/100551210-fb09c180-325d-11eb-86ee-62b25fcab986.png)
+

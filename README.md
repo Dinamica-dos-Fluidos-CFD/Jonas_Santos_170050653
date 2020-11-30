@@ -71,7 +71,7 @@ Como as simulações em CFD é influenciada pela precisão dos resultados. A fim
 ## 2. Pré-Processamento
 
 ### 2.1 Domínio e Geometria
-O domínio, nesse projeto, é uma região na qual será realizado os cálculos numéricos que por sua vez é ponderado por uma malha que retrata pequenos volumes de controle. O domínio ao redor do aerofólio é de 20 vezes o tamanho da corda na vertical e 10 na horizontal, com um perfil traçado a partir de 200 pontos. A fim de satisfazer a precisão requerida. 
+O domínio, nesse projeto, é uma região na qual será realizado os cálculos numéricos que por sua vez representa por uma malha que retrata pequenos volumes de controle. A geração de malha é um processo de transformação de um domínio contínuo para um domínio discreto.O domínio ao redor do aerofólio é de 20 vezes o tamanho da corda na vertical e 10 na horizontal. O perfil é traçado a partir de 200 pontos de modo a satisfazer a precisão requerida. 
 
 ![malha_1](https://user-images.githubusercontent.com/70406366/96933754-6c07cd80-1497-11eb-91ac-47b9c41f0d59.PNG)
 ### 2.2 Malha
@@ -99,6 +99,8 @@ Analisando a malha mais de perto para verificar se obedece a condição estipula
 
 * Ma = 0.258
 
+### Escolhas do pré-processamento no Fluent
+![setups](https://user-images.githubusercontent.com/70406366/96935217-02d58980-149a-11eb-8a48-e1ba31d8a1d2.jpg)
 
 
 ### Recursos Computacionais

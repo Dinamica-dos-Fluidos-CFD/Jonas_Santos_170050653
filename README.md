@@ -99,10 +99,10 @@ Analisando a malha mais de perto para verificar se obedece a condição estipula
 
 * Ma = 0.258
 
-### Escolhas do pré-processamento no Fluent
+### 2.4 Escolhas do pré-processamento no Fluent
 ![setups](https://user-images.githubusercontent.com/70406366/96935217-02d58980-149a-11eb-8a48-e1ba31d8a1d2.jpg)
 
 
-### Recursos Computacionais
+### 2.5 Recursos Computacionais
 ![image](https://user-images.githubusercontent.com/70406366/100551210-fb09c180-325d-11eb-86ee-62b25fcab986.png)
 

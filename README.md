@@ -101,6 +101,8 @@ Visto que para o número de Reynolds estabelecido nesse projeto estabeleceram o 
 * Ma = 0.258
 
 ### 2.4 Escolhas do pré-processamento no Fluent
+Utilizaram 88,65 m/s como velocidade para o ângulo de ataque de 0 graus e compararam com os resultados obtidos no repositório da NASA. Como os resultados estiverem na margem requerida da precisão seguiram com o intuito de obtermos os valores de cl e cd para o ângulo de 12 e nesse ponto verificarão   a existência ou não o fenômeno de stall.O software  é inicializado de forma hibrida e a simulação é realizada com 5000 iterações.
+
 ![setups](https://user-images.githubusercontent.com/70406366/96935217-02d58980-149a-11eb-8a48-e1ba31d8a1d2.jpg)
 
 

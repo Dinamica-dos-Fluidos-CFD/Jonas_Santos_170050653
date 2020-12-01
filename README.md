@@ -115,7 +115,9 @@ A seguir os principais valores de entrada:
 |-----------------------------------|--------------|	
 |H			 |H1=10m|
 |V	|V1=20m|
-|Solver||
+
+
+|Solver| |
 |-----------------------------------|--------------|	
 |Pressure-Based	|Velocity formulation:Absolute|
 |Time : steady	|2D Space planer|

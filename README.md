@@ -132,7 +132,8 @@ A seguir os principais valores de entrada:
 |-----------------------------------|--------------|	
 |Velocity Specification Method	|Magnitude and direction|
 |Velocity magnitude	              |88.65 m/s                           |
-|Turbulence||	
+
+|Turbulence | |	
 |-----------------------------------|--------------|
 |Specfication method	               |Turbulance Viscosity radio|
 |Turbulence viscosity ratio	 |1                                             |

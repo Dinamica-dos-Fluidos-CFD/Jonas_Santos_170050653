@@ -80,7 +80,7 @@ A malha foi obtida a partir da segmentação do domínio em 6 partes gerando uma
 Analisando a malha mais de perto para verificar se obedece a condição estipulada para Y+.
 
 ![image](https://user-images.githubusercontent.com/70406366/96936893-4e3d6700-149d-11eb-9460-4601acf3ab5f.png)
-Visto que para o número de Reynolds estabelecido nesse projeto estabeleceram o valor de Y plus < 1. O Y+ fornece uma distância entre a superfície do aerofólio até a parede menor ou igual a 4.5e-6. Ele é necessário para essa simulação para avaliação da malha estabelecida.  Dessa forma como o Y+ foi satisfeito a malha gerado é de alta qualidade. 
+Visto que para o número de Reynolds estabelecido nesse projeto estabeleceram o valor de Y plus < 1. O Y+ fornece uma distância entre a superfície do aerofólio até a parede menor ou igual a 4.5e-6. Ele é necessário para essa simulação para avaliação da malha estabelecida.  Dessa forma como o Y+ foi satisfeito a malha gerada é de alta qualidade. 
 
 ### 2.3 Inputs 
 * número de Reynolds

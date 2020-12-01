@@ -104,11 +104,11 @@ Visto que para o número de Reynolds estabelecido nesse projeto estabeleceram o 
 A partir do repositório da Nasa, utilizado na validação de resultados e comprovação dos métodos utilizados nessa simulação, tem-se a velocidade e ângulo de ataque da entrada de fluido. Estes valores são de  88,65m/s e 0ºgraus.Entretanto o objetivo desse projeto é obter os coeficientes de sustentação e arrasto para o ângulo de 12ºgraus além de obter Informações acerca do stall deste ângulo de ataque. O software é inicializado de forma hibrida e a simulação é realizada com 5000 iterações.
 A seguir os principais valores de entrada:
 
-| número de Reynolds               	|6000000       |
+| Número de Reynolds               	|6000000       |
 |-----------------------------------|--------------|
-|densidade do ar	                   |1,2754 kg/m3  |
-|velocidade	                        |u=88.65m/s    |
-|escoamento incompressível (Ma<0.3)	|Ma = 0.258    |
+| Massa específica do ar                   |1,2754 kg/m3  |
+|Velocidade	                        |u=88.65m/s    |
+|Escoamento incompressível (Ma<0.3)	|Ma = 0.258    |
 |Viscosidade	                       |1.81E-5 Km /ms|
 
 |Para traçar o domínio| | 
@@ -127,7 +127,7 @@ A seguir os principais valores de entrada:
 |-----------------------------------|--------------|	
 | 		         |Scarlat-Allaras ( 1 eqn)  |
 |Scarlat-Allaras          |	Straing velocity based |
-|options	          |Curvature correction     |
+|Options	          |Curvature correction     |
 	
 	
 | Inlet| |
@@ -141,7 +141,7 @@ A seguir os principais valores de entrada:
 |Turbulence viscosity ratio	 |1                                             |
 	
 	
-|outlet||
+|Outlet||
 |-----------------------------------|--------------|	
 |Specfication method|	Turbulance Viscosity radio|
 |Turbulence viscosity ratio|	1|
@@ -150,13 +150,13 @@ A seguir os principais valores de entrada:
 |Wall|	|
 |-----------------------------------|--------------|
 |Wall motion	|Stationary wall|
-|shear condition		|no slip|
+|Shear condition		|no slip|
 
-|wall roughness| |
+|Wall roughness| |
 |-----------------------------------|--------------|	
-|roughness models		|	standard|
-|roughness height(m)		|0|
-|roughness constant		|0.5|
+|Roughness models		|	standard|
+|Roughness height(m)		|0|
+|Roughness constant		|0.5|
 	
 	
 |Reference Values|	|
@@ -165,13 +165,13 @@ A seguir os principais valores de entrada:
 |Density(kg/m3)	              |1.225      |
 |Depth(m)	                            |              1|
 |Enthalp(j/kg)	                            |0              |
-|lenght(m)	                            |1              |  
-|pressure(pa)	                            |0              |
+|Lenght(m)	                            |1              |  
+|Pressure(pa)	                            |0              |
 |Temperature(K)	              |288.16    |
-|velocity(m/s)	                            |1              |
+|Velocity(m/s)	                            |1              |
 |Viscosity(kg/m-s)	              |1,79E-01|
-|ratio of specific heats	              |1.4           |
-|yplus for heat tran.coef 	|300          |
+|Ratio of specific heats	              |1.4           |
+|Yplus for heat tran.coef 	|300          |
 
 
 

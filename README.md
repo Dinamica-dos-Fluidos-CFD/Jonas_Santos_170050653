@@ -103,10 +103,8 @@ Visto que para o número de Reynolds estabelecido nesse projeto estabeleceram o 
 ### 2.4 Escolhas do pré-processamento no Fluent
 A partir do repositório da Nasa, utilizado na validação de resultados e comprovação dos métodos utilizados nessa simulação, tem-se a velocidade e ângulo de ataque da entrada de fluido. Estes valores são de  88,65m/s e 0ºgraus.Entretanto o objetivo desse projeto é obter os coeficientes de sustentação e arrasto para o ângulo de 12ºgraus além de obter Informações acerca do stall deste ângulo de ataque. O software é inicializado de forma hibrida e a simulação é realizada com 5000 iterações.
 A seguir os principais valores de entrada:
-
-
 ![setups](https://user-images.githubusercontent.com/70406366/96935217-02d58980-149a-11eb-8a48-e1ba31d8a1d2.jpg)
-
+O modelo para escoamento SpalartAllmaras utiliza apenas 1 equação para descrever o problema ele é baseado em deformação e vorticidade. O escoamento estabelecido como 2D, em regime permanente, sendo incompreensível (Ma<0.3)e isotérmico. Os parâmetros de entrada utilizam o método magnitude and Direction que será utilizado para mudar o ângulo de ataque de 0º para 12º graus.
 
 ### 2.5 Recursos Computacionais
 ![image](https://user-images.githubusercontent.com/70406366/100551210-fb09c180-325d-11eb-86ee-62b25fcab986.png)

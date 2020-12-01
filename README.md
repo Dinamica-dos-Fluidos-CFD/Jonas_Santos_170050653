@@ -79,12 +79,14 @@ O domínio, nesse projeto, é uma região na qual será realizado os cálculos n
 A malha foi obtida a partir da segmentação do domínio em 6 partes gerando uma malha hexaédrica a partir do modelo SpalartAllmaras, ao redor do perfil (y+ menor do que 5). Sendo essa uma malha não estruturada composta de elementos quadriláteros com volumes finitos. Na condição da malha está adequada utilizam um software de calculadora online para o Y+.
 
 
-![CodeCogsEqn](https://user-images.githubusercontent.com/70406366/96739589-53fc5500-1396-11eb-99d6-962d58b81128.gif)
+![image](https://user-images.githubusercontent.com/70406366/100800929-07c91980-3406-11eb-9a0d-6cf6ec7a4e72.png)
+
 
 
 Analisando a malha mais de perto para verificar se obedece a condição estipulada para Y+.
 
 ![image](https://user-images.githubusercontent.com/70406366/96936893-4e3d6700-149d-11eb-9460-4601acf3ab5f.png)
+
 Visto que para o número de Reynolds estabelecido nesse projeto estabeleceram o valor de Y plus < 1. O Y+ fornece uma distância entre a superfície do aerofólio até a parede menor ou igual a 4.5e-6. Ele é necessário para essa simulação para avaliação da malha estabelecida.  Dessa forma como o Y+ foi satisfeito a malha gerada é de alta qualidade. 
 
 ### 2.3 Inputs 

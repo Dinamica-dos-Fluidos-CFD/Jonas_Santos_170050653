@@ -72,7 +72,8 @@ Como as simulações em CFD é influenciada pela precisão dos resultados. A fim
 
 ### 2.1 Domínio e Geometria
 O domínio, nesse projeto, é uma região na qual será realizado os cálculos numéricos essa região contínua é discretizada por uma malha que representa pequenos volumes de controle.A geração de malha é um processo de transformação de um domínio contínuo para um domínio discreto.O domínio ao redor do aerofólio é de 20 vezes o tamanho da corda na vertical e 10 na horizontal. O perfil é traçado a partir de 200 pontos de modo a satisfazer a precisão requerida. 
-<p align="center"> ![malha_1](https://user-images.githubusercontent.com/70406366/96933754-6c07cd80-1497-11eb-91ac-47b9c41f0d59.PNG)<br/>
+![malha_1](https://user-images.githubusercontent.com/70406366/96933754-6c07cd80-1497-11eb-91ac-47b9c41f0d59.PNG)
+
 
 ### 2.2 Malha
 A malha foi obtida a partir da segmentação do domínio em 6 partes gerando uma malha hexaédrica a partir do modelo SpalartAllmaras, ao redor do perfil (y+ menor do que 5). Sendo essa uma malha não estruturada composta de elementos quadriláteros com volumes finitos. Na condição da malha está adequada utilizam um software de calculadora online para o Y+.

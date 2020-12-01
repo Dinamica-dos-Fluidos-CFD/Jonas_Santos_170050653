@@ -105,6 +105,7 @@ A partir do repositório da Nasa, utilizado na validação de resultados e compr
 A seguir os principais valores de entrada:
 
 | número de Reynolds               	|6000000       |
+|-----------------------------------|--------------|
 |densidade do ar	                   |1,2754 kg/m3  |
 |velocidade	                        |u=88.65m/s    |
 |escoamento incompressível (Ma<0.3)	|Ma = 0.258    |

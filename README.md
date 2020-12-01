@@ -35,7 +35,7 @@ O intuito desse projeto é obter um modelo de cálculo computacional que nos for
 
  * Que o escoamento seja 2D;
  * Que o escoamento seja turbulento;
- * Isotérmico
+ * Isotérmico.
 
 
   
@@ -90,25 +90,18 @@ Analisando a malha mais de perto para verificar se obedece a condição estipula
 Visto que para o número de Reynolds estabelecido nesse projeto estabeleceram o valor de Y plus < 1. O Y+ fornece uma distância entre a superfície do aerofólio até a parede menor ou igual a 4.5e-6. Ele é necessário para essa simulação para avaliação da malha estabelecida.  Dessa forma como o Y+ foi satisfeito a malha gerada é de alta qualidade. 
 
 ### 2.3 Inputs 
-* Número de Reynolds
+* Re = 6000000;
+
+* Massa específica do ar  de 1,2754 kg/m3;
 
 
-
-![CodeCogsEqn](https://user-images.githubusercontent.com/70406366/96741737-873fe380-1398-11eb-9d46-aafaa55f6ffe.gif)
-                                                                  
- * Re = 6000000
+ * Escoamento incompreensível (Ma<0.3);
 
 
-* Massa específica do ar  de 1,2754 kg/m3
+*  u=88.65m/s;
 
 
- * Escoamento incompreensível (Ma<0.3)
-
-
-*  u=88.65m/s
-
-
-* Ma = 0.258
+* Ma = 0.258.
 
 ### 2.4 Escolhas do pré-processamento no Fluent
 A partir do repositório da Nasa, utilizado na validação de resultados e comprovação dos métodos utilizados nessa simulação, tem-se a velocidade e ângulo de ataque da entrada de fluido. Estes valores são de  88,65m/s e 0ºgraus.Entretanto o objetivo desse projeto é obter os coeficientes de sustentação e arrasto para o ângulo de 12ºgraus além de obter Informações acerca do stall deste ângulo de ataque. O software é inicializado de forma hibrida e a simulação é realizada com 5000 iterações.

@@ -115,6 +115,61 @@ A seguir os principais valores de entrada:
 |-----------------------------------|--------------|	
 |H			 |H1=10m|
 |V	|V1=20m|
+|Solver||
+|-----------------------------------|--------------|	
+|Pressure-Based	|Velocity formulation:Absolute|
+|Time : steady	|2D Space planer|
+	
+	
+|Viscosus Model| |
+|-----------------------------------|--------------|	
+| 		         |Scarlat-Allaras ( 1 eqn)  |
+|Scarlat-Allaras          |	Straing velocity based |
+|options	          |Curvature correction     |
+	
+	
+| Inlet| |
+|-----------------------------------|--------------|	
+|Velocity Specification Method	|Magnitude and direction|
+|Velocity magnitude	              |88.65 m/s                           |
+|Turbulence||	
+|-----------------------------------|--------------|
+|Specfication method	               |Turbulance Viscosity radio|
+|Turbulence viscosity ratio	 |1                                             |
+	
+	
+|outlet||
+|-----------------------------------|--------------|	
+|Specfication method|	Turbulance Viscosity radio|
+|Turbulence viscosity ratio|	1|
+	
+	
+|Wall|	|
+|-----------------------------------|--------------|
+|Wall motion	|Stationary wall|
+|shear condition		|no slip|
+
+|wall roughness| |
+|-----------------------------------|--------------|	
+|roughness models		|	standard|
+|roughness height(m)		|0|
+|roughness constant		|0.5|
+	
+	
+|Reference Values|	|
+|-----------------------------------|--------------|
+|Area(m2)                                      |	1 |
+|Density(kg/m3)	              |1.225      |
+|Depth(m)	                            |              1|
+|Enthalp(j/kg)	                            |0              |
+|lenght(m)	                            |1              |  
+|pressure(pa)	                            |0              |
+|Temperature(K)	              |288.16    |
+|velocity(m/s)	                            |1              |
+|Viscosity(kg/m-s)	              |1,79E-01|
+|ratio of specific heats	              |1.4           |
+|yplus for heat tran.coef 	|300          |
+
 
 
 O modelo para escoamento SpalartAllmaras utiliza apenas 1 equação para descrever o problema ele é baseado em deformação e vorticidade. O escoamento estabelecido como 2D, em regime permanente, sendo incompreensível (Ma<0.3)e isotérmico. Os parâmetros de entrada utilizam o método magnitude and Direction que será utilizado para mudar o ângulo de ataque de 0º para 12º graus.

@@ -111,6 +111,11 @@ A seguir os principais valores de entrada:
 |escoamento incompressível (Ma<0.3)	|Ma = 0.258    |
 |Viscosidade	                       |1.81E-5 Km /ms|
 
+|Para traçar o domínio| 
+|-----------------------------------|--------------|	
+|H			 |H1=10m|
+|V	|V1=20m|
+
 
 O modelo para escoamento SpalartAllmaras utiliza apenas 1 equação para descrever o problema ele é baseado em deformação e vorticidade. O escoamento estabelecido como 2D, em regime permanente, sendo incompreensível (Ma<0.3)e isotérmico. Os parâmetros de entrada utilizam o método magnitude and Direction que será utilizado para mudar o ângulo de ataque de 0º para 12º graus.
 

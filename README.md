@@ -111,7 +111,7 @@ A seguir os principais valores de entrada:
 |escoamento incompressível (Ma<0.3)	|Ma = 0.258    |
 |Viscosidade	                       |1.81E-5 Km /ms|
 
-|Para traçar o domínio| 
+|Para traçar o domínio| | 
 |-----------------------------------|--------------|	
 |H			 |H1=10m|
 |V	|V1=20m|

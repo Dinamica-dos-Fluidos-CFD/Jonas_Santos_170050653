@@ -247,3 +247,94 @@ Observa-se que o ponto de maior pressão se encontra no bordo de ataque, enquant
 ![image](https://user-images.githubusercontent.com/70406366/97062203-371b7980-1570-11eb-911e-497d41e36a2a.png)
 
 <p align="center"> Figura 10:  Wall plus *vs* position para o ângulo de ataque de 0°graus <br/>
+	
+## 4 Análise para o ângulo de ataque de 12 graus
+Como objetivo do projeto é realizar uma análise que permitirá avaliar parâmetros do escoamento como: de pressão, velocidade e turbulência ao redor das bordas do aerofólio a fim de determinar se estar ocorrendo o fenômeno de stall para o ângulo de ataque de 12 graus. Assim deverão substituir os valores de setup em relação ao ângulo de ataque assim utilizarão os valores de seno e cosseno para o ataque de 12 graus.
+
+![image](https://user-images.githubusercontent.com/70406366/97062754-b447ee00-1572-11eb-8ec0-0403632ab75b.png)
+
+
+![image](https://user-images.githubusercontent.com/70406366/97062796-e22d3280-1572-11eb-89d3-94652433dc4d.png)
+
+Substitui-se os parâmetros de entrada nas condições de borda.
+
+![image](https://user-images.githubusercontent.com/70406366/97062989-c0807b00-1573-11eb-8f2d-ba19044fc13d.png)
+
+ o repositório de definições tanto do Drag quanto do lift ficam:
+
+![image](https://user-images.githubusercontent.com/70406366/97063053-09d0ca80-1574-11eb-992a-9b5f82426cc7.png)
+![image](https://user-images.githubusercontent.com/70406366/97063134-59af9180-1574-11eb-8b73-5e2fa8eac134.png)
+
+É importante salientar que em relação ao valor de X do lift colocarão - sin(12), pois lift e drag são sempre relativos a movimentação do fluido. Sendo lift perpendicular ao drag enquanto o drag está na direção do movimento do fluido. 
+
+### 4.1 Avaliando os valores obtidos
+
+![image](https://user-images.githubusercontent.com/70406366/97064648-da26c000-157d-11eb-8934-7542d0799ec4.png)
+
+<p align="center"> Figura 11: valores residuais para o ângulo de ataque de 12°graus <br/>
+
+![image](https://user-images.githubusercontent.com/70406366/97064680-13f7c680-157e-11eb-87de-84fe9d804d92.png)
+
+<p align="center"> Figura 12: valores de cl para o ângulo de ataque de 12°graus <br/>
+
+
+![image](https://user-images.githubusercontent.com/70406366/97064688-2bcf4a80-157e-11eb-8920-ae0258cff523.png)
+<p align="center"> Figura 13: valores de cd para o ângulo de ataque de 12°graus <br/>
+
+Comparando os valores e calculando o erro:
+
+![image](https://user-images.githubusercontent.com/70406366/97064634-b6637a00-157d-11eb-98cd-6c72a05e6022.png)
+
+Utiliza como referência os valores tabelados no repositório da NASA. Obtém-se:
+
+![image](https://user-images.githubusercontent.com/70406366/97063444-2ec63d00-1576-11eb-8104-8f1a56428b7a.png) 
+
+Dessa maneira o erro do cl será de:
+
+![formula_erro](https://user-images.githubusercontent.com/70406366/96937435-7b3e4980-149e-11eb-8c48-30de3e6a799f.gif)
+
+![image](https://user-images.githubusercontent.com/70406366/97064894-f3c90700-157f-11eb-9f95-6b013a4ee0e4.png)
+
+enquanto o do cd:
+
+![formula_erro](https://user-images.githubusercontent.com/70406366/96937435-7b3e4980-149e-11eb-8c48-30de3e6a799f.gif)
+
+![image](https://user-images.githubusercontent.com/70406366/97065041-f37d3b80-1580-11eb-81bd-98b3dc18d169.png)
+
+
+# 4.2 Gráficos das condições de contorno
+
+Percebe-se que com o aumento do ângulo de ataque houve, como esperado, uma mudança significativa entre as diferenças de pressão no intradorso quanto no extradorso. Observa-se que a pressão na parte inferior do perfil é maior que na parte superior. Nota-se com o aumento do ângulo de ataque as velocidades ao logo do perfil não estão mais constantes quanto guando estava posicionada em 0 graus.
+
+![image](https://user-images.githubusercontent.com/70406366/97065217-8074c480-1582-11eb-8016-af6b422333f7.png)
+
+<p align="center"> Figura 14: Pressão para o ângulo de ataque de 12°graus <br/>
+
+![image](https://user-images.githubusercontent.com/70406366/97065230-92566780-1582-11eb-8eb3-1d98990b12f5.png)
+
+<p align="center"> Figura 15: Velocidade para o ângulo de ataque de 12°graus <br/>
+
+
+
+![image](https://user-images.githubusercontent.com/70406366/97065389-540d7800-1583-11eb-9c57-7021ed467847.png)
+<p align="center"> Figura 16:Turbulence viscosity ratio para o ângulo de ataque de 12°graus <br/>
+
+
+
+![image](https://user-images.githubusercontent.com/70406366/97065452-bcf4f000-1583-11eb-9fa5-abc870404094.png)
+
+<p align="center"> Figura 16: Tubulence Wall pluss para o ângulo de ataque de 12°graus <br/>
+
+
+
+
+# Conclusão
+**Pontanto ,de maneira geral,segundo os gráficos acima não está ocorendo o fenômeno de *stall* para o ángulo de ataque de 12 graus.A simulação apresentou resultados qualitativos,pois tivemos uma simulação gráfica aceitável tanto para velocidade quanto para pressão,condizentes com a realidade do escoamento.Como também quantitativos,pois tivemos erros para o calculo de cd e cl inferiores a 5%.**
+
+# Referências
+
+Fox, R.W., McDonald, A.T. and Pritchard, P.J.; “ Introdução à Mecânica dos Fluidos”, LTC, 6a ed. (2004)
+
+
+Anderson Jr., John D., Mateus, Fundamentos de Engenharia Aeronáutica: Introdução ao Voo 6aed.
+

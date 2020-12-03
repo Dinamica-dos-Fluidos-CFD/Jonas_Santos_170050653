@@ -184,14 +184,24 @@ O modelo para escoamento SpalartAllmaras utiliza apenas 1 equação para descrev
 ![image](https://user-images.githubusercontent.com/70406366/100551210-fb09c180-325d-11eb-86ee-62b25fcab986.png)
 
 ## 3. Processamento e Pós-Processamento:
+
 ### 3.1 histórico de convergência
 Emprega-se um teste para o ângulo de ataque de 0° graus a fim de comparar a convergência obtida com o repositório da NASA ,seguindo os critérios de precisão estabelecidos nesse projeto.
+
 ![CD-grafico-1_angulo-0](https://user-images.githubusercontent.com/70406366/96936763-0ddde900-149d-11eb-8b8e-798a63cd93b4.png)
+
 <p align="center"> Figura 5: cd para o ângulo de ataque de 0°graus <br/>
+	
 ![CL-grafico-1_angulo-0](https://user-images.githubusercontent.com/70406366/96936764-0f0f1600-149d-11eb-99e3-b9d0045ee290.png)
+
 <p align="center"> Figura 6: cl para o ângulo de ataque de 0°graus <br/>
-No início do projeto foi estipulado um erro aceitável de até 5% para isso compara-se os valores obtidos de cl e cd  para o esse ângulo de ataque com o repositório de referência .
+	
+	
+No início do projeto foi estipulado um erro aceitável de até 5% para isso compara-se os valores obtidos de cl e cd  para o esse ângulo de ataque com o repositório de referência.
+
+
 ![image](https://user-images.githubusercontent.com/70406366/96937140-dfacd900-149d-11eb-8774-e524019273f1.png)
+
 ![naca tabela](https://user-images.githubusercontent.com/70406366/96937702-26e79980-149f-11eb-9f62-76edfe39d707.PNG)
 
 Sendo a fórmula do erro:
@@ -201,26 +211,39 @@ Sendo a fórmula do erro:
 Substituindo os valores
 
 ![image](https://user-images.githubusercontent.com/70406366/96937563-c8bab680-149e-11eb-95e4-00db29895dcb.png)
+
+
+
 Para o cl de cordo com o repositório da NASA possui valor aproximadamente zero.  Nesse projeto obtém-se o valor cl = 1.470869e-06, muito próximo do que foi requerido. Como o erro foi menor que o estipulado para esse projeto o histórico de convergência do cálculo está adequado.
 
 ### 3.2 Residuais 
+
 Os residuais precisam diminuir para 1e-3. Então, isso significa que não importa de onde o residual começa, ele deve finalmente diminuir para 1e-3. Como nessa simulação os resíduos se encontram em valores próximos a 1e-05, significando que o resultado convergiu bem. 
+
 ![Residuais_grafico-1_angulo-0_](https://user-images.githubusercontent.com/70406366/96936765-0f0f1600-149d-11eb-8c59-7857c2a815cf.png)
+
+
 <p align="center"> Figura 7: residuais para o ângulo de ataque de 0°graus <br/>
+	
+	
 ### 3.4 Tempo de Processamento 
+
+
 A inicialização ocorreu de forma hibrida com 5000 interações. Cada interação varia em 1e-4. Cada interação ocorreu média de 0,600s.Dessa forma o processo de simulação geral teve  aproximadamente 3000s  .
 
 
-
-
-
 ### 3.5 Gráficos das condições de contorno 
-Pressão
+
 Observa-se que o ponto de maior pressão se encontra no bordo de ataque, enquanto no intradorso e extradorso possuem gradientes de pressão similares. Nota-se que os pontos de maior velocidade se encontram no intradorso e no extradorso do aerofólio. 
+
 ![image](https://user-images.githubusercontent.com/70406366/97062101-c96f4d80-156f-11eb-945d-b0ac3c6c4f43.png)
+
 <p align="center"> Figura 8: Pressão para o ângulo de ataque de 0°graus <br/>
+	
 ![image](https://user-images.githubusercontent.com/70406366/97062139-f4f23800-156f-11eb-8097-b5f48f22f366.png)
+
 <p align="center"> Figura 8: velocidade para o ângulo de ataque de 0°graus <br/>
+	
 
 ### Wall plus *vs* position
 

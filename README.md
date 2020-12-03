@@ -302,7 +302,7 @@ enquanto o do cd:
 ![image](https://user-images.githubusercontent.com/70406366/97065041-f37d3b80-1580-11eb-81bd-98b3dc18d169.png)
 
 
-# 4.2 Gráficos das condições de contorno
+### 4.2 Gráficos das condições de contorno
 
 Percebe-se que com o aumento do ângulo de ataque houve, como esperado, uma mudança significativa entre as diferenças de pressão no intradorso quanto no extradorso. Observa-se que a pressão na parte inferior do perfil é maior que na parte superior. Nota-se com o aumento do ângulo de ataque as velocidades ao logo do perfil não estão mais constantes quanto guando estava posicionada em 0 graus.
 

@@ -248,7 +248,7 @@ Observa-se que o ponto de maior pressão se encontra no bordo de ataque, enquant
 
 <p align="center"> Figura 10:  Wall plus *vs* position para o ângulo de ataque de 0°graus <br/>
 	
-## 4 Análise para o ângulo de ataque de 12 graus
+## 4. Análise para o ângulo de ataque de 12 graus
 Como objetivo do projeto é realizar uma análise que permitirá avaliar parâmetros do escoamento como: de pressão, velocidade e turbulência ao redor das bordas do aerofólio a fim de determinar se estar ocorrendo o fenômeno de stall para o ângulo de ataque de 12 graus. Assim deverão substituir os valores de setup em relação ao ângulo de ataque assim utilizarão os valores de seno e cosseno para o ataque de 12 graus.
 
 ![image](https://user-images.githubusercontent.com/70406366/97062754-b447ee00-1572-11eb-8ec0-0403632ab75b.png)
@@ -329,7 +329,8 @@ Percebe-se que com o aumento do ângulo de ataque houve, como esperado, uma muda
 
 
 # Conclusão
-**Pontanto ,de maneira geral,segundo os gráficos acima não está ocorendo o fenômeno de *stall* para o ángulo de ataque de 12 graus.A simulação apresentou resultados qualitativos,pois tivemos uma simulação gráfica aceitável tanto para velocidade quanto para pressão,condizentes com a realidade do escoamento.Como também quantitativos,pois tivemos erros para o calculo de cd e cl inferiores a 5%.**
+
+Pontanto ,de maneira geral,segundo os gráficos acima não está ocorendo o fenômeno de *stall* para o ángulo de ataque de 12 graus.A simulação apresentou resultados qualitativos,pois tivemos uma simulação gráfica aceitável tanto para velocidade quanto para pressão,condizentes com a realidade do escoamento.Como também quantitativos,pois tivemos erros para o calculo de cd e cl inferiores a 5%.
 
 # Referências
 

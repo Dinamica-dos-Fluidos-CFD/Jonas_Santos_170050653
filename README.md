@@ -234,7 +234,7 @@ A inicialização ocorreu de forma hibrida com 5000 interações. Cada interaç�
 
 ### 3.5 Gráficos das condições de contorno 
 
-Observa-se que o ponto de maior pressão se encontra no bordo de ataque, enquanto no intradorso e extradorso possuem gradientes de pressão similares. Nota-se que os pontos de maior velocidade se encontram no intradorso e no extradorso do aerofólio. 
+Observa-se que o ponto de maior pressão se encontra no bordo de ataque, enquanto no intradorso e extradorso possuem gradientes de pressão similares. Nota-se que os pontos de maior velocidade se encontram no intradorso e no extradorso do aerofólio.O que corresponde a uma representação satisfatória da realidade do escoamento. 
 
 ![image](https://user-images.githubusercontent.com/70406366/97062101-c96f4d80-156f-11eb-945d-b0ac3c6c4f43.png)
 

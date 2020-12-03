@@ -244,8 +244,6 @@ Observa-se que o ponto de maior pressão se encontra no bordo de ataque, enquant
 
 <p align="center"> Figura 8: velocidade para o ângulo de ataque de 0°graus <br/>
 	
-
-### Wall plus *vs* position
-
 ![image](https://user-images.githubusercontent.com/70406366/97062203-371b7980-1570-11eb-911e-497d41e36a2a.png)
 
+<p align="center"> Figura 8:  Wall plus *vs* position para o ângulo de ataque de 0°graus <br/>

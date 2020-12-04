@@ -235,6 +235,8 @@ A inicialização ocorreu de forma hibrida com 5000 interações. Cada interaç�
 ### 3.5 Análise da física do escoamento 
 
 Observa-se que não ocorre variações bruscas de pressão e velocidade para o ângulo de ataque de 0° graus. O que descreve a natureza fisica do experimento um vez que o perfil do aerofólio é simétrico e não produz sustentação a 0º que pode ser observado  a partir dos valores dos coeficientes de arrasto e sustentação. 
+
+
 ![image](https://user-images.githubusercontent.com/70406366/97062101-c96f4d80-156f-11eb-945d-b0ac3c6c4f43.png)
 
 <p align="center"> Figura 8: Pressão para o ângulo de ataque de 0°graus <br/>

@@ -185,8 +185,8 @@ O modelo para escoamento SpalartAllmaras utiliza apenas 1 equação para descrev
 
 ## 3. Processamento e Pós-Processamento:
 
-### 3.1 histórico de convergência
-Emprega-se um teste para o ângulo de ataque de 0° graus a fim de comparar a convergência obtida com o repositório da NASA ,seguindo os critérios de precisão estabelecidos nesse projeto.
+### 3.1 Histórico de convergência
+Emprega-se um teste para o ângulo de ataque de 0° graus a fim de comparar os valores obtidos com o repositório da NASA, seguindo os critérios de precisão estabelecidos nesse projeto.
 
 ![CD-grafico-1_angulo-0](https://user-images.githubusercontent.com/70406366/96936763-0ddde900-149d-11eb-8b8e-798a63cd93b4.png)
 
@@ -197,7 +197,7 @@ Emprega-se um teste para o ângulo de ataque de 0° graus a fim de comparar a co
 <p align="center"> Figura 6: cl para o ângulo de ataque de 0°graus <br/>
 	
 	
-No início do projeto foi estipulado um erro aceitável de até 5% para isso compara-se os valores obtidos de cl e cd  para o esse ângulo de ataque com o repositório de referência.
+No início do projeto foi estipulado um erro aceitável de até 5% para isso compara-se os valores obtidos de cl e cd para o esse ângulo de ataque com o repositório de referência.
 
 
 ![image](https://user-images.githubusercontent.com/70406366/96937140-dfacd900-149d-11eb-8774-e524019273f1.png)
@@ -208,7 +208,7 @@ Sendo a fórmula do erro:
 
 ![formula_erro](https://user-images.githubusercontent.com/70406366/96937435-7b3e4980-149e-11eb-8c48-30de3e6a799f.gif)
 
-Substituindo os valores
+Substituindo os valores:
 
 ![image](https://user-images.githubusercontent.com/70406366/96937563-c8bab680-149e-11eb-95e4-00db29895dcb.png)
 
@@ -229,13 +229,12 @@ Os residuais precisam diminuir para 1e-3. Então, isso significa que não import
 ### 3.4 Tempo de Processamento 
 
 
-A inicialização ocorreu de forma hibrida com 5000 interações. Cada interação varia em 1e-4. Cada interação ocorreu média de 0,600s.Dessa forma o processo de simulação geral teve  aproximadamente 3000s  .
+A inicialização ocorreu de forma hibrida com 5000 interações. Cada interação varia em 1e-4. Cada interação ocorreu média de 0,600s. Dessa forma o processo de simulação geral teve aproximadamente 3000s  .
 
 
-### 3.5 Gráficos das condições de contorno 
+### 3.5 Análise da física do escoamento 
 
-Observa-se que o ponto de maior pressão se encontra no bordo de ataque, enquanto no intradorso e extradorso possuem gradientes de pressão similares. Nota-se que os pontos de maior velocidade se encontram no intradorso e no extradorso do aerofólio.O que corresponde a uma representação satisfatória da realidade do escoamento. 
-
+Observa-se que não ocorre variações bruscas de pressão e velocidade para o ângulo de ataque de 0° graus. O que descreve a natureza fisica do experimento um vez que o perfil do aerofólio é simétrico e não produz sustentação a 0º que pode ser observado  a partir dos valores dos coeficientes de arrasto e sustentação. 
 ![image](https://user-images.githubusercontent.com/70406366/97062101-c96f4d80-156f-11eb-945d-b0ac3c6c4f43.png)
 
 <p align="center"> Figura 8: Pressão para o ângulo de ataque de 0°graus <br/>
@@ -244,12 +243,8 @@ Observa-se que o ponto de maior pressão se encontra no bordo de ataque, enquant
 
 <p align="center"> Figura 9: velocidade para o ângulo de ataque de 0°graus <br/>
 	
-![image](https://user-images.githubusercontent.com/70406366/97062203-371b7980-1570-11eb-911e-497d41e36a2a.png)
-
-<p align="center"> Figura 10:  Wall plus *vs* position para o ângulo de ataque de 0°graus <br/>
-	
 ## 4. Análise para o ângulo de ataque de 12 graus
-Como objetivo do projeto é realizar uma análise que permitirá avaliar parâmetros do escoamento como: de pressão, velocidade e turbulência ao redor das bordas do aerofólio a fim de determinar se estar ocorrendo o fenômeno de stall para o ângulo de ataque de 12 graus. Assim deverão substituir os valores de setup em relação ao ângulo de ataque assim utilizarão os valores de seno e cosseno para o ataque de 12 graus.
+O motivo de reiniciar a simulação para o ângulo de ataque de 12° tem como finalidade satisfazer o objetivo do projeto, que por sua vez, é realizar uma análise que permitirá avaliar parâmetros do escoamento como: de pressão, velocidade e turbulência ao redor das bordas do aerofólio a fim observar a ocorrência ou não do fenômeno de stall para esse o ângulo de ataque. Assim deverão substituir os valores de setup em relação ao ângulo de ataque assim utilizarão os valores de seno e cosseno para o ataque de 12 graus.
 
 ![image](https://user-images.githubusercontent.com/70406366/97062754-b447ee00-1572-11eb-8ec0-0403632ab75b.png)
 
@@ -260,14 +255,16 @@ Substitui-se os parâmetros de entrada nas condições de borda.
 
 ![image](https://user-images.githubusercontent.com/70406366/97062989-c0807b00-1573-11eb-8f2d-ba19044fc13d.png)
 
- o repositório de definições tanto do Drag quanto do lift ficam:
+ O repositório de definições tanto do Drag quanto do lift ficam:
 
 ![image](https://user-images.githubusercontent.com/70406366/97063053-09d0ca80-1574-11eb-992a-9b5f82426cc7.png)
 ![image](https://user-images.githubusercontent.com/70406366/97063134-59af9180-1574-11eb-8b73-5e2fa8eac134.png)
 
 É importante salientar que em relação ao valor de X do lift colocarão - sin(12), pois lift e drag são sempre relativos a movimentação do fluido. Sendo lift perpendicular ao drag enquanto o drag está na direção do movimento do fluido. 
 
-### 4.1 Avaliando os valores obtidos
+### 4.1 Análise da física do escoamento
+
+Segundo os gráficos das condições de contorno para o ângulo de ataque de 12° observam que aparecerá uma força de sustentação, uma vez que na parte inferior do aerofólio, a pressão é maior e a velocidade é menor que na parte superior. Pode ser demonstrado pela lei de Bernoulli que em pontos específicos do aerofólio onde tem um acréscimo nos gradientes de pressão e descrêssemos nos gradientes de velocidade.
 
 ![image](https://user-images.githubusercontent.com/70406366/97064648-da26c000-157d-11eb-8934-7542d0799ec4.png)
 
@@ -315,22 +312,13 @@ Percebe-se que com o aumento do ângulo de ataque houve, como esperado, uma muda
 <p align="center"> Figura 15: Velocidade para o ângulo de ataque de 12°graus <br/>
 
 
-
 ![image](https://user-images.githubusercontent.com/70406366/97065389-540d7800-1583-11eb-9c57-7021ed467847.png)
 <p align="center"> Figura 16:Turbulence viscosity ratio para o ângulo de ataque de 12°graus <br/>
 
 
-
-![image](https://user-images.githubusercontent.com/70406366/97065452-bcf4f000-1583-11eb-9fa5-abc870404094.png)
-
-<p align="center"> Figura 16: Tubulence Wall pluss para o ângulo de ataque de 12°graus <br/>
-
-
-
-
 # Conclusão
 
-Pontanto ,de maneira geral,segundo os gráficos acima não está ocorendo o fenômeno de *stall* para o ángulo de ataque de 12 graus.A simulação apresentou resultados qualitativos,pois tivemos uma simulação gráfica aceitável tanto para velocidade quanto para pressão,condizentes com a realidade do escoamento.Como também quantitativos,pois tivemos erros para o calculo de cd e cl inferiores a 5%.
+Portanto, de maneira geral, segundo os gráficos acima não está ocorrendo o fenômeno de *stall* para o ângulo de ataque de 12 graus. Mostra que a ferramenta CFD é bastante poderosa para resolver diversos problemas da indústria em geral e de pesquisa, pois é fiel em seus resultados e condizente com a física em geral.
 
 # Referências
 

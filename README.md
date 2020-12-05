@@ -267,7 +267,9 @@ Substitui-se os parâmetros de entrada nas condições de borda.
 ### 4.1 Análise da física do escoamento
 
 Segundo os gráficos das condições de contorno para o ângulo de ataque de 12° observam que aparecerá uma força de sustentação, uma vez que na parte inferior do aerofólio, a pressão é maior e a velocidade é menor que na parte superior. Pode ser demonstrado pela lei de Bernoulli que em pontos específicos do aerofólio onde tem um acréscimo nos gradientes de pressão e descrêssemos nos gradientes de velocidade.
-A força de sustentação é a componente da resultante aerodinâmica perpendicular à direção do vento relativo, sendo uma força útil ao aerofólio. A força de arrasto é a componente da resultante aerodinâmica paralela à direção do vento relativo, sendo nociva e deve ser reduzida ao mínimo possível
+
+A força de sustentação é a componente da resultante aerodinâmica perpendicular à direção do vento relativo, sendo uma força útil ao aerofólio. A força de arrasto é a componente da resultante aerodinâmica paralela à direção do vento relativo, sendo nociva e deve ser reduzida ao mínimo possível.
+
 Percebe-se que com o aumento do ângulo de ataque houve, como esperado, uma mudança significativa entre as diferenças de pressão no intradorso quanto no extradorso. Observa-se que a pressão na parte inferior do perfil é maior que na parte superior. Nota-se com o aumento do ângulo de ataque as velocidades ao logo do perfil não estão mais constantes quanto guando estava posicionada em 0 graus.
 
 

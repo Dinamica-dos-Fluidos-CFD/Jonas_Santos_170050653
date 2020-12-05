@@ -186,7 +186,7 @@ O modelo para escoamento SpalartAllmaras utiliza apenas 1 equação para descrev
 ## 3. Processamento e Pós-Processamento:
 
 ### 3.1 Histórico de convergência
-Emprega-se um teste para o ângulo de ataque de 0° graus a fim de comparar os valores obtidos com o repositório da NASA, seguindo os critérios de precisão estabelecidos nesse projeto.
+Emprega-se um teste para o ângulo de ataque de 0° graus a fim de comparar os valores obtidos com o repositório da NASA, seguindo os critérios de precisão estabelecidos nesse projeto.  As figuras abaixo mostram o valor dos coeficientes ao longo das iterações.
 
 ![CD-grafico-1_angulo-0](https://user-images.githubusercontent.com/70406366/96936763-0ddde900-149d-11eb-8b8e-798a63cd93b4.png)
 
@@ -267,6 +267,9 @@ Substitui-se os parâmetros de entrada nas condições de borda.
 ### 4.1 Análise da física do escoamento
 
 Segundo os gráficos das condições de contorno para o ângulo de ataque de 12° observam que aparecerá uma força de sustentação, uma vez que na parte inferior do aerofólio, a pressão é maior e a velocidade é menor que na parte superior. Pode ser demonstrado pela lei de Bernoulli que em pontos específicos do aerofólio onde tem um acréscimo nos gradientes de pressão e descrêssemos nos gradientes de velocidade.
+A força de sustentação é a componente da resultante aerodinâmica perpendicular à direção do vento relativo, sendo uma força útil ao aerofólio. A força de arrasto é a componente da resultante aerodinâmica paralela à direção do vento relativo, sendo nociva e deve ser reduzida ao mínimo possível
+Percebe-se que com o aumento do ângulo de ataque houve, como esperado, uma mudança significativa entre as diferenças de pressão no intradorso quanto no extradorso. Observa-se que a pressão na parte inferior do perfil é maior que na parte superior. Nota-se com o aumento do ângulo de ataque as velocidades ao logo do perfil não estão mais constantes quanto guando estava posicionada em 0 graus.
+
 
 ![image](https://user-images.githubusercontent.com/70406366/97064648-da26c000-157d-11eb-8934-7542d0799ec4.png)
 
@@ -299,11 +302,6 @@ enquanto o do cd:
 ![formula_erro](https://user-images.githubusercontent.com/70406366/96937435-7b3e4980-149e-11eb-8c48-30de3e6a799f.gif)
 
 ![image](https://user-images.githubusercontent.com/70406366/97065041-f37d3b80-1580-11eb-81bd-98b3dc18d169.png)
-
-
-### 4.2  Análise da física do escoamento
-
-Percebe-se que com o aumento do ângulo de ataque houve, como esperado, uma mudança significativa entre as diferenças de pressão no intradorso quanto no extradorso. Observa-se que a pressão na parte inferior do perfil é maior que na parte superior. Nota-se com o aumento do ângulo de ataque as velocidades ao logo do perfil não estão mais constantes quanto guando estava posicionada em 0 graus.
 
 ![image](https://user-images.githubusercontent.com/70406366/97065217-8074c480-1582-11eb-8016-af6b422333f7.png)
 
